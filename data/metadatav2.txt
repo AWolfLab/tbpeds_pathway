@@ -1,0 +1,237 @@
+samples	sample_id	savio_id	tbClass	ntm	sex	age	age_range	childhood	hiv	sam	underweight
+334	334	LIB003300_22C2NCLT3_S21_L003_R1.fastq.gz	Confirmed 	Negative	F	7	over1	middle	Negative	N	P
+335	335	LIB003301_22C2NCLT3_S20_L003_R1.fastq.gz	Unconfirmed 	Negative	F	1	over1	early	Negative	N	N
+337	337	LIB003302_22C2NCLT3_S19_L003_R1.fastq.gz	Confirmed 	Negative	F	12	over1	adolescent	Negative	N	N
+338	338	LIB061830_22H3KFLT4_S1_L007_R1_001.fastq.gz	Confirmed 	Negative	F	0	under1	infant	Negative	N	N
+342	342	LIB061832_22H3KFLT4_S3_L007_R1_001.fastq.gz	Unconfirmed 	Negative	F	1	over1	early	Negative	N	N
+343	343	LIB061833_22H3KFLT4_S4_L007_R1_001.fastq.gz	Unconfirmed 	Negative	F	0	under1	infant		P	P
+344	344	LIB003303_22C2NCLT3_S18_L003_R1.fastq.gz	Unlikely	Negative	M	3	over1	early	Negative	N	N
+345	345	LIB061834_22H3KFLT4_S5_L007_R1_001.fastq.gz	Unlikely	Negative	F	0	under1	infant	Negative	N	N
+346	346	LIB003304_22C2NCLT3_S17_L003_R1.fastq.gz	Unconfirmed 	Positive	F	9	over1	middle	Negative	N	P
+347	347	LIB003305_22C2NCLT3_S16_L003_R1.fastq.gz	Unconfirmed 	Negative	F	10	over1	middle	Negative	N	N
+348	348	LIB003306_22C2NCLT3_S15_L003_R1.fastq.gz	Confirmed 	Negative	M	2	over1	early	Negative	N	N
+351	351	LIB061837_22H3KFLT4_S8_L007_R1_001.fastq.gz	Unclassifiable	Negative	M	3	over1	early	Negative	N	N
+352	352	LIB061838_22H3KFLT4_S9_L007_R1_001.fastq.gz	Unconfirmed 	Negative	M	3	over1	early	Negative	N	N
+353	353	LIB061839_22H3KFLT4_S10_L007_R1_001.fastq.gz	Unclassifiable	Negative	M	6	over1	middle	Negative	N	P
+355	355	LIB003307_22C2NCLT3_S14_L003_R1.fastq.gz	Unconfirmed 	Negative	F	5	over1	middle	Negative	N	P
+356	356	LIB061840_22H3KFLT4_S11_L007_R1_001.fastq.gz	Unconfirmed 	Negative	F	2	over1	early	Negative	N	N
+357	357	LIB003308_22C2NCLT3_S13_L003_R1.fastq.gz	Unlikely	Negative	M	1	over1	early	Positive	P	P
+359	359	LIB061841_22H3KFLT4_S12_L007_R1_001.fastq.gz	Unconfirmed 	Negative	M	1	over1	early	Positive	P	P
+360	360	LIB061842_22H3KFLT4_S13_L007_R1_001.fastq.gz	Unconfirmed 	Negative	F	1	over1	early	Positive	P	P
+361	361	LIB061843_22H3KFLT4_S14_L007_R1_001.fastq.gz	Unconfirmed 	Negative	M	7	over1	middle	Negative	N	P
+362	362	LIB061844_22H3KFLT4_S15_L007_R1_001.fastq.gz	Unconfirmed 	Negative	M	1	over1	early	Negative	N	N
+363	363	LIB061845_22H3KFLT4_S16_L007_R1_001.fastq.gz	Unconfirmed 	Negative	M	1	over1	early	Negative	N	N
+364	364	LIB061846_22H3KFLT4_S17_L007_R1_001.fastq.gz	Unconfirmed 	Negative	F	0	under1	infant	Negative	N	N
+366	366	LIB061847_22H3KFLT4_S18_L007_R1_001.fastq.gz	Unconfirmed 	Negative	F	5	over1	middle	Negative	N	P
+367	367	LIB061848_22H3KFLT4_S19_L007_R1_001.fastq.gz	Unconfirmed 	Positive	M	3	over1	early	Negative	N	N
+369	369	LIB061849_22H3KFLT4_S20_L007_R1_001.fastq.gz	Unconfirmed 	Negative	M	1	over1	early	Negative	N	P
+371	371	LIB061850_22H3KFLT4_S21_L007_R1_001.fastq.gz	Unconfirmed 	Negative	F	13	over1	adolescent	Negative	N	N
+373	373	LIB003309_22C2NCLT3_S12_L003_R1.fastq.gz	Unlikely	Negative	M	9	over1	middle	Negative	N	P
+377	377	LIB003310_22C2NCLT3_S11_L003_R1.fastq.gz	Unlikely	Negative	M	2	over1	early	Negative	N	N
+378	378	LIB061853_22H3KFLT4_S24_L007_R1_001.fastq.gz	Unconfirmed 	Negative	M	1	over1	early	Negative	N	P
+380	380	LIB003311_22C2NCLT3_S10_L003_R1.fastq.gz	Unlikely	Negative	M	1	over1	early	Negative	N	N
+385	385	LIB061856_22H3KFLT4_S27_L007_R1_001.fastq.gz	Unconfirmed 	Positive	M	2	over1	early	Negative	N	P
+387	387	LIB003312_22C2NCLT3_S9_L003_R1.fastq.gz	Unlikely	Negative	M	1	over1	early	Negative	P	P
+388	388	LIB003313_22C2NCLT3_S8_L003_R1.fastq.gz	Unlikely	Negative	F	4	over1	middle	Negative	N	N
+389	389	LIB061857_22H3KFLT4_S28_L007_R1_001.fastq.gz	Unconfirmed 	Negative	M	9	over1	middle	Negative	N	P
+390	390	LIB061858_22H3KFLT4_S29_L007_R1_001.fastq.gz	Unconfirmed 	Negative	M	11	over1	adolescent	Negative	N	N
+391	391	LIB061859_22H3KFLT4_S30_L007_R1_001.fastq.gz	Unconfirmed 	Negative	M	9	over1	middle	Negative	N	P
+392	392	LIB061863_22H3KFLT4_S34_L007_R1_001.fastq.gz	Unconfirmed 	Negative	F	4	over1	middle	Negative	N	N
+393	393	LIB003314_22C2NCLT3_S7_L003_R1.fastq.gz	Unlikely	Negative	M	4	over1	middle	Negative	N	N
+394	394	LIB061860_22H3KFLT4_S31_L007_R1_001.fastq.gz	Unconfirmed 	Negative	F	2	over1	early	Negative	N	N
+395	395	LIB061861_22H3KFLT4_S32_L007_R1_001.fastq.gz	Unconfirmed 	Negative	F	7	over1	middle	Negative	N	P
+398	398	LIB061865_22H3KFLT4_S36_L007_R1_001.fastq.gz	Unconfirmed 	Negative	F	3	over1	early	Positive	N	N
+399	399	LIB061866_22H3KFLT4_S37_L007_R1_001.fastq.gz	Unconfirmed 	Negative	F	1	over1	early	HIV-exposed	N	N
+400	400	LIB061867_22H3KFLT4_S38_L007_R1_001.fastq.gz	Unconfirmed 	Negative	M	5	over1	middle	Negative	N	P
+401	401	LIB061868_22H3KFLT4_S39_L007_R1_001.fastq.gz	Unconfirmed 	Negative	F	1	over1	early	Negative	N	N
+402	402	LIB061869_22H3KFLT4_S40_L007_R1_001.fastq.gz	Unconfirmed 	Negative	F	3	over1	early	Negative	N	N
+405	405	LIB061871_22H3KFLT4_S42_L007_R1_001.fastq.gz	Unconfirmed 	Negative	M	1	over1	early	Negative	N	N
+406	406	LIB061872_22H3KFLT4_S43_L007_R1_001.fastq.gz	Unlikely	Negative	F	5	over1	middle	Negative	N	P
+407	407	LIB061873_22H3KFLT4_S44_L007_R1_001.fastq.gz	Unconfirmed 	Negative	M	8	over1	middle	Negative	N	P
+408	408	LIB061874_22H3KFLT4_S45_L007_R1_001.fastq.gz	Unlikely	Negative	M	5	over1	middle		N	P
+409	409	LIB061875_22H3KFLT4_S46_L007_R1_001.fastq.gz	Unlikely	Negative	M	0	under1	infant		N	N
+410	410	LIB061876_22H3KFLT4_S47_L007_R1_001.fastq.gz	Unlikely	Negative	M	6	over1	middle	Negative	N	P
+411	411	LIB061877_22H3KFLT4_S48_L007_R1_001.fastq.gz	Unconfirmed 	Negative	F	4	over1	middle	Negative	N	N
+413	413	LIB061878_22H3KFLT4_S49_L007_R1_001.fastq.gz	Confirmed 	Negative	F	3	over1	early	Negative	N	P
+414	414	LIB061879_22H3KFLT4_S50_L007_R1_001.fastq.gz	Confirmed 	Negative	M	1	over1	early	Negative	N	N
+415	415	LIB003315_22C2NCLT3_S6_L003_R1.fastq.gz	Confirmed 		F	12	over1	adolescent	Negative	N	N
+417	417	LIB061881_22H3KFLT4_S52_L007_R1_001.fastq.gz	Unlikely	Negative	F	4	over1	middle	Negative	N	N
+418	418	LIB061882_22H3KFLT4_S53_L007_R1_001.fastq.gz	Unconfirmed 	Negative	M	6	over1	middle	Negative	N	P
+420	420	LIB061883_22H3KFLT4_S54_L007_R1_001.fastq.gz	Unconfirmed 	Negative	M	5	over1	middle	Negative	N	P
+421	421	LIB061884_22H3KFLT4_S55_L007_R1_001.fastq.gz	Unconfirmed 	Negative	M	4	over1	middle	Negative	N	N
+422	422	LIB061886_22H3KFLT4_S57_L007_R1_001.fastq.gz	Unclassifiable	Negative	M	1	over1	early	Negative	P	P
+423	423	LIB061885_22H3KFLT4_S56_L007_R1_001.fastq.gz	Unlikely	Negative	M	0	under1	infant	HIV-exposed	P	P
+424	424	LIB061887_22H3KFLT4_S58_L007_R1_001.fastq.gz	Unconfirmed 	Negative	M	1	over1	early	Negative	N	N
+425	425	LIB061890_22H3KFLT4_S61_L007_R1_001.fastq.gz	Unconfirmed 	Negative	F	6	over1	middle	Negative	N	P
+428	428	LIB061889_22H3KFLT4_S60_L007_R1_001.fastq.gz	Unlikely	Negative	F	5	over1	middle	Negative	N	P
+429	429	LIB061888_22H3KFLT4_S59_L007_R1_001.fastq.gz	Unlikely	Negative	F	6	over1	middle	Negative	N	P
+430	430	LIB061891_22H3KFLT4_S62_L007_R1_001.fastq.gz	Unlikely	Negative	M	9	over1	middle	Negative	N	P
+435	435	LIB061897_22H3KFLT4_S68_L007_R1_001.fastq.gz	Unconfirmed 	Negative	F	2	over1	early	Negative	N	N
+437	437	LIB061899_22H3KFLT4_S70_L007_R1_001.fastq.gz	Unlikely	Negative	F	8	over1	middle	Negative	N	P
+439	439	LIB061900_22H3KFLT4_S71_L007_R1_001.fastq.gz	Unconfirmed 	Negative	F	3	over1	early	Negative	N	N
+440	440	LIB061901_22H3KFLT4_S72_L007_R1_001.fastq.gz	Unconfirmed 	Negative	M	5	over1	middle	Negative	N	P
+442	442	LIB061903_22H3KFLT4_S74_L007_R1_001.fastq.gz	Unconfirmed 	Negative	M	7	over1	middle		N	N
+443	443	LIB061904_22H3KFLT4_S75_L007_R1_001.fastq.gz	Unconfirmed 	Negative	F	3	over1	early	Negative	N	N
+444	444	LIB061905_22H3KFLT4_S76_L007_R1_001.fastq.gz	Unlikely	Negative	F	14	over1	adolescent	Negative	N	N
+445	445	LIB061906_22H3KFLT4_S77_L007_R1_001.fastq.gz	Unconfirmed 	Negative	M	6	over1	middle		N	P
+446	446	LIB061907_22H3KFLT4_S78_L007_R1_001.fastq.gz	Unlikely	Negative	M	13	over1	adolescent	Positive	N	N
+447	447	LIB061908_22H3KFLT4_S79_L007_R1_001.fastq.gz	Unconfirmed 	Negative	F	2	over1	early	Negative	N	N
+449	449	LIB061910_22H3KFLT4_S81_L007_R1_001.fastq.gz	Unconfirmed 	Negative	M	3	over1	early	Negative	N	N
+452	452	LIB061912_22H3KFLT4_S83_L007_R1_001.fastq.gz	Unlikely	Negative	M	1	over1	early	Negative	N	N
+454	454	LIB061913_22H3KFLT4_S84_L007_R1_001.fastq.gz	Unconfirmed 	Negative	M	10	over1	middle		N	N
+455	455	LIB061914_22H3KFLT4_S85_L007_R1_001.fastq.gz	Unconfirmed 	Negative	M	1	over1	early	Negative	N	P
+456	456	LIB061915_22H3KFLT4_S86_L007_R1_001.fastq.gz	Unlikely	Negative	F	9	over1	middle	Positive	N	P
+457	457	LIB061917_22H3KFLT4_S88_L007_R1_001.fastq.gz	Unlikely	Negative	M	0	under1	infant	Negative	N	P
+458	458	LIB061916_22H3KFLT4_S87_L007_R1_001.fastq.gz	Unconfirmed 	Negative	F	1	over1	early	Negative	N	P
+459	459	LIB061918_22H3KFLT4_S89_L007_R1_001.fastq.gz	Confirmed 	Negative	M	12	over1	adolescent	Negative	N	N
+460	460	LIB061919_22H3KFLT4_S90_L007_R1_001.fastq.gz	Unconfirmed 	Negative	F	1	over1	early		N	N
+462	462	LIB061920_22H3KFLT4_S91_L007_R1_001.fastq.gz	Unconfirmed 	Negative	F	2	over1	early	Negative	N	P
+464	464	LIB061922_22H3KFLT4_S93_L007_R1_001.fastq.gz	Confirmed 		F	1	over1	early	Negative	N	N
+467	467	LIB061924_22H3KFLT4_S95_L007_R1_001.fastq.gz	Confirmed 		M	1	over1	early	Positive	N	N
+468	468	LIB061925_22H3KFLT4_S96_L007_R1_001.fastq.gz	Unconfirmed 	Negative	M	1	over1	early	Positive	P	P
+470	470	LIB072748_22HNWVLT4_S55_L002_R1_001.fastq.gz	Confirmed 	Negative	F	0	under1	infant	Negative	P	P
+472	472	LIB072774_22HNWVLT4_S81_L003_R1_001.fastq.gz	Unconfirmed 	Negative	F	0	under1	infant	Negative	N	N
+473	473	LIB072775_22HNWVLT4_S82_L003_R1_001.fastq.gz	Unconfirmed 	Negative	F	0	under1	infant	Negative	N	N
+474	474	LIB072776_22HNWVLT4_S83_L003_R1_001.fastq.gz	Unclassifiable	Negative	M	13	over1	adolescent	Negative	N	N
+475	475	LIB072779_22HNWVLT4_S86_L003_R1_001.fastq.gz	Unlikely	Negative	F	0	under1	infant	Negative	P	P
+476	476	LIB072780_22HNWVLT4_S87_L003_R1_001.fastq.gz	Unlikely	Negative	M	10	over1	middle	Negative	N	N
+478	478	LIB072777_22HNWVLT4_S84_L003_R1_001.fastq.gz	Unconfirmed 	Negative	M	13	over1	adolescent	Positive	N	N
+479	479	LIB072781_22HNWVLT4_S88_L003_R1_001.fastq.gz	Unconfirmed 	Negative	M	0	under1	infant	Negative	P	P
+482	482	LIB072783_22HNWVLT4_S90_L003_R1_001.fastq.gz	Unconfirmed 	Negative	M	1	over1	early	Negative	N	N
+483	483	LIB072749_22HNWVLT4_S56_L002_R1_001.fastq.gz	Unconfirmed 	Negative	M	1	over1	early	Positive	N	N
+484	484	LIB072750_22HNWVLT4_S57_L002_R1_001.fastq.gz	Confirmed 	Negative	M	0	under1	infant	Negative	P	P
+485	485	LIB072784_22HNWVLT4_S91_L003_R1_001.fastq.gz	Confirmed 	Negative	F	1	over1	early	Negative	N	N
+487	487	LIB072785_22HNWVLT4_S92_L003_R1_001.fastq.gz	Confirmed 	Negative	F	3	over1	early	Negative	N	N
+488	488	LIB072751_22HNWVLT4_S58_L002_R1_001.fastq.gz	Confirmed 	Negative	M	1	over1	early	HIV-exposed	P	P
+489	489	LIB072752_22HNWVLT4_S59_L002_R1_001.fastq.gz	Unconfirmed 	Negative	M	1	over1	early	Negative	N	N
+490	490	LIB072753_22HNWVLT4_S60_L002_R1_001.fastq.gz	Unconfirmed 	Negative	M	1	over1	early	Negative	N	P
+491	491	LIB072754_22HNWVLT4_S61_L002_R1_001.fastq.gz	Unconfirmed 	Negative	M	1	over1	early	Negative	N	P
+492	492	LIB072755_22HNWVLT4_S62_L002_R1_001.fastq.gz	Unconfirmed 	Negative	M	1	over1	early	Negative	N	P
+494	494	LIB072786_22HNWVLT4_S93_L003_R1_001.fastq.gz	Unlikely	Negative	F	11	over1	adolescent	Positive	N	N
+495	495	LIB072787_22HNWVLT4_S94_L003_R1_001.fastq.gz	Unconfirmed 	Negative	F	7	over1	middle	Negative	N	P
+496	496	LIB072756_22HNWVLT4_S63_L002_R1_001.fastq.gz	Unconfirmed 	Negative	F	2	over1	early	Negative	N	N
+497	497	LIB072788_22HNWVLT4_S95_L003_R1_001.fastq.gz	Unlikely	Positive	M	1	over1	early	Negative	P	P
+499	499	LIB072789_22HNWVLT4_S96_L003_R1_001.fastq.gz	Unclassifiable	Negative	M	2	over1	early	Negative	N	N
+501	501	LIB072791_22HNWVLT4_S98_L003_R1_001.fastq.gz	Unconfirmed 	Negative	M	8	over1	middle	Negative	N	P
+504	504	LIB072793_22HNWVLT4_S100_L003_R1_001.fastq.gz	Confirmed 	Negative	F	0	under1	infant	Negative	N	N
+507	507	LIB072798_22HNWVLT4_S105_L003_R1_001.fastq.gz	Unconfirmed 	Negative	M	1	over1	early	Negative	N	P
+509	509	LIB072757_22HNWVLT4_S64_L002_R1_001.fastq.gz	Unlikely	Negative	M	0	under1	infant	Negative	N	N
+511	511	LIB072797_22HNWVLT4_S104_L003_R1_001.fastq.gz	Unconfirmed 	Negative	F	1	over1	early	Positive	N	N
+512	512	LIB072760_22HNWVLT4_S67_L002_R1_001.fastq.gz	Unconfirmed 	Positive	F	3	over1	early	Positive	N	N
+513	513	LIB072799_22HNWVLT4_S106_L003_R1_001.fastq.gz	Unconfirmed 	Negative	M	8	over1	middle	Negative	N	P
+514	514	LIB072758_22HNWVLT4_S65_L002_R1_001.fastq.gz	Unlikely	Negative	F	8	over1	middle	Positive	N	P
+516	516	LIB072801_22HNWVLT4_S108_L003_R1_001.fastq.gz	Unlikely	Negative	F	1	over1	early	Positive	N	N
+517	517	LIB072759_22HNWVLT4_S66_L002_R1_001.fastq.gz	Unclassifiable	Negative	M	4	over1	middle	Negative	P	P
+518	518	LIB072802_22HNWVLT4_S109_L003_R1_001.fastq.gz	Unclassifiable	Negative	M	1	over1	early	Negative	N	N
+522	522	LIB072806_22HNWVLT4_S113_L003_R1_001.fastq.gz	Unlikely	Negative	M	1	over1	early	Negative	N	N
+525	525	LIB072807_22HNWVLT4_S114_L003_R1_001.fastq.gz	Unclassifiable	Negative	F	8	over1	middle	Negative	N	P
+526	526	LIB072808_22HNWVLT4_S115_L003_R1_001.fastq.gz	Unconfirmed 	Negative	F	1	over1	early	HIV-exposed	N	P
+528	528	LIB072761_22HNWVLT4_S68_L002_R1_001.fastq.gz	Unlikely	Negative	M	2	over1	early	Negative	N	N
+529	529	LIB072762_22HNWVLT4_S69_L002_R1_001.fastq.gz	Unconfirmed 	Negative	F	1	over1	early	Negative	N	P
+530	530	LIB072809_22HNWVLT4_S116_L003_R1_001.fastq.gz	Unclassifiable	Negative	F	10	over1	middle	Negative	N	N
+532	532	LIB072811_22HNWVLT4_S118_L003_R1_001.fastq.gz	Unconfirmed 	Negative	F	0	under1	infant	Negative	N	N
+534	534	LIB072813_22HNWVLT4_S120_L003_R1_001.fastq.gz	Unlikely	Negative	F	0	under1	infant	Negative	N	N
+536	536	LIB072815_22HNWVLT4_S122_L003_R1_001.fastq.gz	Unlikely	Negative	F	4	over1	middle	Negative	N	P
+537	537	LIB072763_22HNWVLT4_S70_L002_R1_001.fastq.gz	Confirmed 	Negative	F	2	over1	early	Positive	N	P
+538	538	LIB072764_22HNWVLT4_S71_L002_R1_001.fastq.gz	Unlikely	Negative	M	0	under1	infant	HIV-exposed	N	P
+541	541	LIB072817_22HNWVLT4_S124_L003_R1_001.fastq.gz	Unconfirmed 	Negative	M	1	over1	early	Negative	N	P
+542	542	LIB072818_22HNWVLT4_S125_L003_R1_001.fastq.gz	Unconfirmed 	Negative	M	5	over1	middle	Positive	N	P
+543	543	LIB072819_22HNWVLT4_S126_L003_R1_001.fastq.gz	Unconfirmed 	Negative	F	1	over1	early	Negative	N	N
+547	547	LIB072823_22HNWVLT4_S130_L003_R1_001.fastq.gz	Unconfirmed 	Negative	M	6	over1	middle	Negative	N	P
+550	550	LIB072825_22HNWVLT4_S132_L003_R1_001.fastq.gz	Confirmed 	Negative	M	3	over1	early	Negative	N	N
+551	551	LIB072826_22HNWVLT4_S133_L003_R1_001.fastq.gz	Unclassifiable	Negative	M	0	under1	infant	Negative	N	N
+552	552	LIB072827_22HNWVLT4_S134_L003_R1_001.fastq.gz	Unconfirmed 	Negative	M	1	over1	early	Positive	N	P
+553	553	LIB072828_22HNWVLT4_S135_L003_R1_001.fastq.gz	Confirmed 	Negative	M	0	under1	infant	Negative	N	P
+554	554	LIB072829_22HNWVLT4_S136_L003_R1_001.fastq.gz	Unconfirmed 	Negative	M	6	over1	middle	Negative	N	P
+555	555	LIB072766_22HNWVLT4_S73_L002_R1_001.fastq.gz	Unconfirmed 	Negative	M	0	under1	infant	Negative	N	P
+557	557	LIB072830_22HNWVLT4_S137_L003_R1_001.fastq.gz	Unconfirmed 	Negative	F	7	over1	middle	Negative	N	P
+558	558	LIB072832_22HNWVLT4_S139_L003_R1_001.fastq.gz	Unlikely	Negative	F	5	over1	middle	Negative	N	P
+559	559	LIB072831_22HNWVLT4_S138_L003_R1_001.fastq.gz	Unconfirmed 	Negative	F	3	over1	early	Positive	P	P
+562	562	LIB072767_22HNWVLT4_S74_L002_R1_001.fastq.gz	Unconfirmed 	Negative	F	9	over1	middle	Positive	N	P
+563	563	LIB072835_22HNWVLT4_S142_L003_R1_001.fastq.gz	Unlikely	Negative	M	1	over1	early	Negative	N	N
+565	565	LIB072771_22HNWVLT4_S78_L002_R1_001.fastq.gz	Unlikely	Negative	F	1	over1	early	Positive	N	N
+568	568	LIB072838_22HNWVLT4_S145_L003_R1_001.fastq.gz	Unconfirmed 	Negative	F	0	under1	infant	HIV-exposed	N	P
+569	569	LIB072768_22HNWVLT4_S75_L002_R1_001.fastq.gz	Unconfirmed 	Negative	M	4	over1	middle	Negative	N	N
+570	570	LIB072839_22HNWVLT4_S146_L003_R1_001.fastq.gz	Unlikely	Negative	F	6	over1	middle	Negative	N	P
+571	571	LIB072769_22HNWVLT4_S76_L002_R1_001.fastq.gz	Confirmed 	Negative	F	7	over1	middle	Negative	N	P
+572	572	LIB072770_22HNWVLT4_S77_L002_R1_001.fastq.gz	Unlikely	Negative	F	1	over1	early	Negative	N	N
+573	573	LIB072772_22HNWVLT4_S79_L002_R1_001.fastq.gz	Unconfirmed 	Negative	F	2	over1	early	Positive	P	P
+574	574	LIB072840_22HNWVLT4_S147_L003_R1_001.fastq.gz	Unconfirmed 	Negative	M	7	over1	middle	Positive	N	P
+575	575	LIB072843_22HNWVLT4_S150_L003_R1_001.fastq.gz	Unconfirmed 	Negative	F	1	over1	early	Negative	P	P
+577	577	LIB072842_22HNWVLT4_S149_L003_R1_001.fastq.gz	Unconfirmed 	Negative	F	9	over1	middle	Negative	N	P
+578	578	LIB076984_22MG27LT4_S99_L002_R1_001.fastq.gz	Unlikely	Positive	M	3	over1	early	Positive	N	N
+579	579	LIB076949_22MG27LT4_S64_L002_R1_001.fastq.gz	Unconfirmed 	Negative	F	1	over1	early	Negative	N	P
+581	581	LIB076985_22MG27LT4_S100_L002_R1_001.fastq.gz	Unconfirmed 	Negative	F	2	over1	early	Negative	N	N
+583	583	LIB076950_22MG27LT4_S65_L002_R1_001.fastq.gz	Confirmed 	Negative	F	1	over1	early	Negative	N	N
+584	584	LIB076988_22MG27LT4_S103_L002_R1_001.fastq.gz	Unconfirmed 	Negative	F	0	under1	infant	Negative	N	N
+587	587	LIB076951_22MG27LT4_S66_L002_R1_001.fastq.gz	Unlikely	Positive	M	2	over1	early	Positive	N	P
+588	588	LIB076991_22MG27LT4_S106_L002_R1_001.fastq.gz	Unconfirmed 	Negative	M	9	over1	middle	Negative	N	P
+590	590	LIB076993_22MG27LT4_S108_L002_R1_001.fastq.gz	Unconfirmed 	Negative	M	4	over1	middle	Negative	N	N
+592	592	LIB076952_22MG27LT4_S67_L002_R1_001.fastq.gz	Unconfirmed 	Positive	M	0	under1	infant	Negative	N	P
+595	595	LIB076996_22MG27LT4_S111_L002_R1_001.fastq.gz	Confirmed 	Negative	M	1	over1	early	Negative	N	N
+596	596	LIB076997_22MG27LT4_S112_L002_R1_001.fastq.gz	Confirmed 	Negative	M	1	over1	early	Negative	N	N
+598	598	LIB076998_22MG27LT4_S113_L002_R1_001.fastq.gz	Unconfirmed 	Negative	M	0	under1	infant	Negative	N	N
+600	600	LIB076953_22MG27LT4_S68_L002_R1_001.fastq.gz	Unlikely	Negative	M	2	over1	early	Negative	N	N
+601	601	LIB076999_22MG27LT4_S114_L002_R1_001.fastq.gz	Confirmed 	Negative	F	8	over1	middle		N	P
+603	603	LIB077000_22MG27LT4_S115_L002_R1_001.fastq.gz	Confirmed 	Negative	M	13	over1	adolescent	Negative	N	N
+604	604	LIB076954_22MG27LT4_S69_L002_R1_001.fastq.gz	Unlikely	Negative	M	2	over1	early	Negative	N	N
+605	605	LIB077003_22MG27LT4_S118_L002_R1_001.fastq.gz	Unconfirmed 	Negative	M	0	under1	infant		N	N
+606	606	LIB077002_22MG27LT4_S117_L002_R1_001.fastq.gz	Unlikely	Negative	M	11	over1	adolescent	Positive	N	N
+607	607	LIB077004_22MG27LT4_S119_L002_R1_001.fastq.gz	Unlikely	Negative	F	8	over1	middle	Positive	N	P
+609	609	LIB076955_22MG27LT4_S70_L002_R1_001.fastq.gz	Unconfirmed 	Negative	M	0	under1	infant	Negative	N	N
+612	612	LIB077008_22MG27LT4_S123_L002_R1_001.fastq.gz	Confirmed 		M	0	under1	infant	Negative	N	P
+614	614	LIB077009_22MG27LT4_S124_L002_R1_001.fastq.gz	Unlikely	Positive	M	5	over1	middle	Negative	N	P
+618	618	LIB077011_22MG27LT4_S126_L002_R1_001.fastq.gz	Unlikely	Negative	M	2	over1	early	Negative	N	N
+619	619	LIB076956_22MG27LT4_S71_L002_R1_001.fastq.gz	Confirmed 		F	1	over1	early	Negative	N	P
+620	620	LIB076957_22MG27LT4_S72_L002_R1_001.fastq.gz	Confirmed 		M	1	over1	early	Negative	N	P
+621	621	LIB076958_22MG27LT4_S73_L002_R1_001.fastq.gz	Confirmed 		F	1	over1	early	Negative	N	P
+622	622	LIB077012_22MG27LT4_S127_L002_R1_001.fastq.gz	Unlikely	Negative	M	4	over1	middle	Negative	N	N
+625	625	LIB076959_22MG27LT4_S74_L002_R1_001.fastq.gz	Confirmed 	Negative	F	3	over1	early	Negative	P	P
+626	626	LIB076961_22MG27LT4_S76_L002_R1_001.fastq.gz	Confirmed 	Negative	F	0	under1	infant		N	N
+627	627	LIB076960_22MG27LT4_S75_L002_R1_001.fastq.gz	Confirmed 	Negative	M	1	over1	early		N	N
+628	628	LIB077015_22MG27LT4_S130_L002_R1_001.fastq.gz	Unconfirmed 	Negative	M	4	over1	middle	Negative	N	N
+629	629	LIB077016_22MG27LT4_S131_L002_R1_001.fastq.gz	Unconfirmed 	Negative	F	6	over1	middle	Negative	N	P
+630	630	LIB077017_22MG27LT4_S132_L002_R1_001.fastq.gz	Confirmed 	Negative	M	2	over1	early	Negative	N	N
+632	632	LIB076962_22MG27LT4_S77_L002_R1_001.fastq.gz	Unconfirmed 	Positive	M	0	under1	infant	Negative	N	P
+634	634	LIB077019_22MG27LT4_S134_L002_R1_001.fastq.gz	Unconfirmed 	Negative	F	2	over1	early		N	N
+635	635	LIB077020_22MG27LT4_S135_L002_R1_001.fastq.gz	Unconfirmed 	Negative	M	8	over1	middle	Positive	N	P
+636	636	LIB076963_22MG27LT4_S78_L002_R1_001.fastq.gz	Confirmed 		M	0	under1	infant	Negative	P	P
+638	638	LIB077021_22MG27LT4_S136_L002_R1_001.fastq.gz	Unclassifiable	Positive	M	1	over1	early	Negative	P	P
+639	639	LIB076964_22MG27LT4_S79_L002_R1_001.fastq.gz	Unclassifiable	Negative	F	0	under1	infant		P	P
+640	640	LIB077024_22MG27LT4_S139_L002_R1_001.fastq.gz	Unconfirmed 	Negative	F	0	under1	infant	Negative	N	N
+641	641	LIB077022_22MG27LT4_S137_L002_R1_001.fastq.gz	Unconfirmed 	Negative	M	1	over1	early	Negative	N	P
+643	643	LIB077025_22MG27LT4_S140_L002_R1_001.fastq.gz	Unconfirmed 	Negative	F	0	under1	infant	Negative	N	N
+645	645	LIB076965_22MG27LT4_S80_L002_R1_001.fastq.gz	Unconfirmed 	Negative	M	6	over1	middle	Positive	N	P
+648	648	LIB076966_22MG27LT4_S81_L002_R1_001.fastq.gz	Unconfirmed 	Negative	M	4	over1	middle	Negative	N	P
+649	649	LIB077029_22MG27LT4_S144_L002_R1_001.fastq.gz	Unconfirmed 	Negative	F	10	over1	middle	Negative	N	N
+650	650	LIB077030_22MG27LT4_S145_L002_R1_001.fastq.gz	Unconfirmed 	Negative	M	5	over1	middle	Negative	N	P
+651	651	LIB077031_22MG27LT4_S146_L002_R1_001.fastq.gz	Confirmed 	Negative	M	13	over1	adolescent	Negative	N	N
+652	652	LIB077035_22MG27LT4_S150_L002_R1_001.fastq.gz	Unconfirmed 	Negative	F	2	over1	early	Negative	N	P
+654	654	LIB077032_22MG27LT4_S147_L002_R1_001.fastq.gz	Unconfirmed 	Positive	M	2	over1	early	Positive	N	N
+655	655	LIB077034_22MG27LT4_S149_L002_R1_001.fastq.gz	Confirmed 		M	6	over1	middle	Negative	N	P
+656	656	LIB077033_22MG27LT4_S148_L002_R1_001.fastq.gz	Unconfirmed 	Negative	F	1	over1	early	Positive	N	P
+240MAC	240MAC	LIB076969_22MG27LT4_S84_L002_R1_001.fastq.gz	avium								
+Erdman	Erdman	LIB076968_22MG27LT4_S83_L002_R1_001.fastq.gz	mtb								
+Mix1	Mix1	LIB076982_22MG27LT4_S97_L002_R1_001.fastq.gz	mix								
+Mix2	Mix2	LIB076983_22MG27LT4_S98_L002_R1_001.fastq.gz	mix								
+no1	no1		no								
+no2	no2		no								
+no3	no3		no								
+no4	no4		no								
+no5	no5		no								
+no6	no6		no								
+S001	S001	LIB076967_22MG27LT4_S82_L002_R1_001.fastq.gz	control								
+S005	S005	LIB077037_22MG27LT4_S152_L002_R1_001.fastq.gz	control								
+S001A1	S001A1	LIB076976_22MG27LT4_S91_L002_R1_001.fastq.gz	spike								
+S001A2	S001A2	LIB076977_22MG27LT4_S92_L002_R1_001.fastq.gz	spike								
+S001A3	S001A3	LIB076978_22MG27LT4_S93_L002_R1_001.fastq.gz	spike								
+S001A4	S001A4	LIB076979_22MG27LT4_S94_L002_R1_001.fastq.gz	spike								
+S001A5	S001A5	LIB076980_22MG27LT4_S95_L002_R1_001.fastq.gz	spike								
+S001A6	S001A6	LIB076981_22MG27LT4_S96_L002_R1_001.fastq.gz	spike								
+S001T1	S001T1	LIB076970_22MG27LT4_S85_L002_R1_001.fastq.gz	spike								
+S001T2	S001T2	LIB076971_22MG27LT4_S86_L002_R1_001.fastq.gz	spike								
+S001T3	S001T3	LIB076972_22MG27LT4_S87_L002_R1_001.fastq.gz	spike								
+S001T4	S001T4	LIB076973_22MG27LT4_S88_L002_R1_001.fastq.gz	spike								
+S001T5	S001T5	LIB076974_22MG27LT4_S89_L002_R1_001.fastq.gz	spike								
+S001T6	S001T6	LIB076975_22MG27LT4_S90_L002_R1_001.fastq.gz	spike								
+S010	S010	LIB077038_22MG27LT4_S153_L002_R1_001.fastq.gz	control								
