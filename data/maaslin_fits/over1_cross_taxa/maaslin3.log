@@ -1,162 +1,162 @@
-2025-09-25 07:40:50.097408 INFO::Writing function arguments to log file
-2025-09-25 07:40:50.097895 DEBUG::Function arguments
-2025-09-25 07:40:50.102647 DEBUG::Output folder: ../data/maaslin_fits/over1_cross_taxa
-2025-09-25 07:40:50.102839 DEBUG::Formula: ~ tbClass + (1|sex)
-2025-09-25 07:40:50.102991 DEBUG::Fixed effects:
-2025-09-25 07:40:50.103131 DEBUG::Reference:
-2025-09-25 07:40:50.103267 DEBUG::Random effects:
-2025-09-25 07:40:50.103397 DEBUG::Group effects:
-2025-09-25 07:40:50.103529 DEBUG::Ordered effects:
-2025-09-25 07:40:50.103662 DEBUG::Strata effects:
-2025-09-25 07:40:50.103796 DEBUG::Min Abundance: 0.000000
-2025-09-25 07:40:50.10392 DEBUG::Min Prevalence: 0.300000
-2025-09-25 07:40:50.104043 DEBUG::Zero Threshold: 0.000000
-2025-09-25 07:40:50.104171 DEBUG::Min variance: 0.000000
-2025-09-25 07:40:50.104301 DEBUG::Max significance: 0.050000
-2025-09-25 07:40:50.104432 DEBUG::Normalization: TSS
-2025-09-25 07:40:50.104553 DEBUG::Transform: LOG
-2025-09-25 07:40:50.104673 DEBUG::Correction method: BH
-2025-09-25 07:40:50.104794 DEBUG::Standardize: TRUE
-2025-09-25 07:40:50.104911 DEBUG::Abundance median comparison: TRUE
-2025-09-25 07:40:50.105028 DEBUG::Prevalence median comparison: FALSE
-2025-09-25 07:40:50.105144 DEBUG::Abundance median comparison threshold: 0
-2025-09-25 07:40:50.105269 DEBUG::Prevalence median comparison threshold: 0
-2025-09-25 07:40:50.105403 DEBUG::Subtract median: FALSE
-2025-09-25 07:40:50.105522 DEBUG::Warn prevalence: TRUE
-2025-09-25 07:40:50.105638 DEBUG::Small random effects: FALSE
-2025-09-25 07:40:50.105756 DEBUG::Augment: TRUE
-2025-09-25 07:40:50.105872 DEBUG::Evaluate only:
-2025-09-25 07:40:50.105992 DEBUG::Cores: 10
-2025-09-25 07:40:50.106113 DEBUG::Balanced Summary plot: FALSE
-2025-09-25 07:40:50.106235 INFO::Verifying options selected are valid
-2025-09-25 07:40:50.106759 INFO::Determining format of input files
-2025-09-25 07:40:50.107049 INFO::Input format is data samples as columns and metadata samples as rows
-2025-09-25 07:40:50.109808 DEBUG::Transformed data so samples are rows
-2025-09-25 07:40:50.11003 DEBUG::A total of 65 samples were found in both the data and metadata
-2025-09-25 07:40:50.110213 INFO::The following samples were found to have features but no metadata (or feature specific covariates if applicable). They will be removed. LIB003301_22C2NCLT3_S20_L003,LIB003304_22C2NCLT3_S17_L003,LIB003307_22C2NCLT3_S14_L003,LIB061830_22H3KFLT4_S1_L007,LIB061832_22H3KFLT4_S3_L007,LIB061833_22H3KFLT4_S4_L007,LIB061834_22H3KFLT4_S5_L007,LIB061837_22H3KFLT4_S8_L007,LIB061838_22H3KFLT4_S9_L007,LIB061839_22H3KFLT4_S10_L007,LIB061840_22H3KFLT4_S11_L007,LIB061841_22H3KFLT4_S12_L007,LIB061842_22H3KFLT4_S13_L007,LIB061844_22H3KFLT4_S15_L007,LIB061845_22H3KFLT4_S16_L007,LIB061846_22H3KFLT4_S17_L007,LIB061847_22H3KFLT4_S18_L007,LIB061849_22H3KFLT4_S20_L007,LIB061853_22H3KFLT4_S24_L007,LIB061856_22H3KFLT4_S27_L007,LIB061858_22H3KFLT4_S29_L007,LIB061859_22H3KFLT4_S30_L007,LIB061860_22H3KFLT4_S31_L007,LIB061861_22H3KFLT4_S32_L007,LIB061863_22H3KFLT4_S34_L007,LIB061865_22H3KFLT4_S36_L007,LIB061866_22H3KFLT4_S37_L007,LIB061867_22H3KFLT4_S38_L007,LIB061868_22H3KFLT4_S39_L007,LIB061869_22H3KFLT4_S40_L007,LIB061871_22H3KFLT4_S42_L007,LIB061875_22H3KFLT4_S46_L007,LIB061877_22H3KFLT4_S48_L007,LIB061882_22H3KFLT4_S53_L007,LIB061883_22H3KFLT4_S54_L007,LIB061884_22H3KFLT4_S55_L007,LIB061885_22H3KFLT4_S56_L007,LIB061887_22H3KFLT4_S58_L007,LIB061897_22H3KFLT4_S68_L007,LIB061900_22H3KFLT4_S71_L007,LIB061901_22H3KFLT4_S72_L007,LIB061903_22H3KFLT4_S74_L007,LIB061904_22H3KFLT4_S75_L007,LIB061906_22H3KFLT4_S77_L007,LIB061908_22H3KFLT4_S79_L007,LIB061910_22H3KFLT4_S81_L007,LIB061913_22H3KFLT4_S84_L007,LIB061914_22H3KFLT4_S85_L007,LIB061916_22H3KFLT4_S87_L007,LIB061917_22H3KFLT4_S88_L007,LIB061919_22H3KFLT4_S90_L007,LIB061920_22H3KFLT4_S91_L007,LIB061925_22H3KFLT4_S96_L007,LIB072748_22HNWVLT4_S55_L002,LIB072749_22HNWVLT4_S56_L002,LIB072750_22HNWVLT4_S57_L002,LIB072752_22HNWVLT4_S59_L002,LIB072753_22HNWVLT4_S60_L002,LIB072754_22HNWVLT4_S61_L002,LIB072755_22HNWVLT4_S62_L002,LIB072756_22HNWVLT4_S63_L002,LIB072757_22HNWVLT4_S64_L002,LIB072760_22HNWVLT4_S67_L002,LIB072762_22HNWVLT4_S69_L002,LIB072764_22HNWVLT4_S71_L002,LIB072766_22HNWVLT4_S73_L002,LIB072767_22HNWVLT4_S74_L002,LIB072768_22HNWVLT4_S75_L002,LIB072772_22HNWVLT4_S79_L002,LIB072775_22HNWVLT4_S82_L003,LIB072776_22HNWVLT4_S83_L003,LIB072777_22HNWVLT4_S84_L003,LIB072779_22HNWVLT4_S86_L003,LIB072781_22HNWVLT4_S88_L003,LIB072783_22HNWVLT4_S90_L003,LIB072789_22HNWVLT4_S96_L003,LIB072791_22HNWVLT4_S98_L003,LIB072793_22HNWVLT4_S100_L003,LIB072797_22HNWVLT4_S104_L003,LIB072798_22HNWVLT4_S105_L003,LIB072799_22HNWVLT4_S106_L003,LIB072807_22HNWVLT4_S114_L003,LIB072808_22HNWVLT4_S115_L003,LIB072809_22HNWVLT4_S116_L003,LIB072811_22HNWVLT4_S118_L003,LIB072813_22HNWVLT4_S120_L003,LIB072817_22HNWVLT4_S124_L003,LIB072818_22HNWVLT4_S125_L003,LIB072819_22HNWVLT4_S126_L003,LIB072823_22HNWVLT4_S130_L003,LIB072826_22HNWVLT4_S133_L003,LIB072827_22HNWVLT4_S134_L003,LIB072828_22HNWVLT4_S135_L003,LIB072829_22HNWVLT4_S136_L003,LIB072830_22HNWVLT4_S137_L003,LIB072831_22HNWVLT4_S138_L003,LIB072838_22HNWVLT4_S145_L003,LIB072842_22HNWVLT4_S149_L003,LIB072843_22HNWVLT4_S150_L003,LIB076949_22MG27LT4_S64_L002,LIB076952_22MG27LT4_S67_L002,LIB076955_22MG27LT4_S70_L002,LIB076961_22MG27LT4_S76_L002,LIB076962_22MG27LT4_S77_L002,LIB076963_22MG27LT4_S78_L002,LIB076964_22MG27LT4_S79_L002,LIB076965_22MG27LT4_S80_L002,LIB076966_22MG27LT4_S81_L002,LIB076967_22MG27LT4_S82_L002,LIB076968_22MG27LT4_S83_L002,LIB076969_22MG27LT4_S84_L002,LIB076973_22MG27LT4_S88_L002,LIB076974_22MG27LT4_S89_L002,LIB076976_22MG27LT4_S91_L002,LIB076977_22MG27LT4_S92_L002,LIB076978_22MG27LT4_S93_L002,LIB076982_22MG27LT4_S97_L002,LIB076985_22MG27LT4_S100_L002,LIB076988_22MG27LT4_S103_L002,LIB076991_22MG27LT4_S106_L002,LIB076993_22MG27LT4_S108_L002,LIB076998_22MG27LT4_S113_L002,LIB077003_22MG27LT4_S118_L002,LIB077008_22MG27LT4_S123_L002,LIB077015_22MG27LT4_S130_L002,LIB077016_22MG27LT4_S131_L002,LIB077019_22MG27LT4_S134_L002,LIB077020_22MG27LT4_S135_L002,LIB077021_22MG27LT4_S136_L002,LIB077022_22MG27LT4_S137_L002,LIB077024_22MG27LT4_S139_L002,LIB077025_22MG27LT4_S140_L002,LIB077030_22MG27LT4_S145_L002,LIB077032_22MG27LT4_S147_L002,LIB077033_22MG27LT4_S148_L002,LIB077035_22MG27LT4_S150_L002,LIB077037_22MG27LT4_S152_L002,LIB077038_22MG27LT4_S153_L002
-2025-09-25 07:40:50.110565 DEBUG::Reordering data/metadata to use same sample ordering
-2025-09-25 07:40:50.112566 INFO::Running selected normalization method: TSS
-2025-09-25 07:40:50.118696 INFO::Writing normalized data to file ../data/maaslin_fits/over1_cross_taxa/features/data_norm.tsv
-2025-09-25 07:40:50.132858 INFO::Filter data based on min abundance and min prevalence
-2025-09-25 07:40:50.133187 INFO::Total samples in data: 65
-2025-09-25 07:40:50.133402 INFO::Min samples required with min abundance for a feature not to be filtered: 19.500000
-2025-09-25 07:40:50.157947 INFO::Total filtered features: 197
-2025-09-25 07:40:50.158413 INFO::Filtered feature names from abundance and prevalence filtering: 12DICHLORETHDEG-PWY: 1,2-dichloroethane degradation, 4-HYDROXYMANDELATE-DEGRADATION-PWY: 4-hydroxymandelate degradation, CHLOROPHYLL-SYN: 3,8-divinyl-chlorophyllide a biosynthesis I (aerobic, light-dependent), CRNFORCAT-PWY: creatinine degradation I, DENITRIFICATION-PWY: nitrate reduction I (denitrification), DHGLUCONATE-PYR-CAT-PWY: glucose degradation (oxidative), ERGOSTEROL-SYN-PWY: superpathway of ergosterol biosynthesis I, LYSINE-DEG1-PWY: L-lysine degradation XI (mammalian), M-CRESOL-DEGRADATION-PWY: m-cresol degradation, METHANOGENESIS-PWY: methanogenesis from H2 and CO2, METHYLGALLATE-DEGRADATION-PWY: methylgallate degradation, NADSYN-PWY: NAD de novo biosynthesis II (from tryptophan), NPGLUCAT-PWY: Entner-Doudoroff pathway II (non-phosphorylative), P101-PWY: ectoine biosynthesis, P165-PWY: superpathway of purines degradation in plants, P184-PWY: protocatechuate degradation I (meta-cleavage pathway), P261-PWY: coenzyme M biosynthesis I, P3-PWY: gallate degradation III (anaerobic), PHOTOALL-PWY: oxygenic photosynthesis, PROPFERM-PWY: superpathway of L-alanine fermentation (Stickland reaction), PWY-101: photosynthesis light reactions, PWY-1361: benzoyl-CoA degradation I (aerobic), PWY-1501: mandelate degradation I, PWY-1622: formaldehyde assimilation I (serine pathway), PWY-181: photorespiration, PWY-2504: superpathway of aromatic compound degradation via 3-oxoadipate, PWY-3081: L-lysine biosynthesis V, PWY-3481: superpathway of L-phenylalanine and L-tyrosine biosynthesis, PWY-3502: superpathway of NAD biosynthesis in eukaryotes, PWY-3661: glycine betaine degradation I, PWY-3941: &beta;-alanine biosynthesis II, PWY-4221: superpathway of coenzyme A biosynthesis II (plants), PWY-4722: creatinine degradation II, PWY-5028: L-histidine degradation II, PWY-5044: purine nucleotides degradation I (plants), PWY-5055: nicotinate degradation III, PWY-5067: glycogen biosynthesis II (from UDP-D-Glucose), PWY-5080: very long chain fatty acid biosynthesis I, PWY-5109: propanoate fermentation to 2-methylbutanoate, PWY-5129: sphingolipid biosynthesis (plants), PWY-5179: toluene degradation V (aerobic) (via toluene-cis-diol), PWY-5196: factor 430 biosynthesis, PWY-5198: factor 420 biosynthesis II (mycobacteria), PWY-5207: coenzyme B/coenzyme M regeneration I (methanophenazine-dependent), PWY-5209: methyl-coenzyme M oxidation to CO2, PWY-5266: p-cymene degradation, PWY-5273: p-cumate degradation, PWY-5280: L-lysine degradation IV, PWY-5283: L-lysine degradation V, PWY-5381: NAD salvage (plants), PWY-5419: catechol degradation to 2-hydroxypentadienoate II, PWY-5420: catechol degradation II (meta-cleavage pathway), PWY-5430: meta cleavage pathway of aromatic compounds, PWY-5494: pyruvate fermentation to propanoate II (acrylate pathway), PWY-5532: nucleoside and nucleotide degradation (archaea), PWY-5647: 2-nitrobenzoate degradation I, PWY-5651: L-tryptophan degradation to 2-amino-3-carboxymuconate semialdehyde, PWY-5654: 2-amino-3-carboxymuconate semialdehyde degradation to 2-hydroxypentadienoate, PWY-5655: L-tryptophan degradation IX, PWY-5677: succinate fermentation to butanoate, PWY-5724: superpathway of atrazine degradation, PWY-5742: L-arginine degradation IX (arginine:pyruvate transaminase pathway), PWY-5743: 3-hydroxypropanoate cycle, PWY-5757: fosfomycin biosynthesis, PWY-5789: 3-hydroxypropanoate/4-hydroxybutanate cycle, PWY-5872: ubiquinol-10 biosynthesis (late decarboxylation), PWY-6075: ergosterol biosynthesis I, PWY-6093: 4,5-dichlorocatechol degradation, PWY-6107: chlorosalicylate degradation, PWY-6145: superpathway of CMP-sialic acids biosynthesis, PWY-6148: tetrahydromethanopterin biosynthesis, PWY-6160: 3-dehydroquinate biosynthesis II (archaea), PWY-6165: chorismate biosynthesis II (archaea), PWY-6167: flavin biosynthesis II (archaea), PWY-6174: mevalonate pathway II (haloarchaea), PWY-6182: superpathway of salicylate degradation, PWY-6185: 4-methylcatechol degradation (ortho cleavage), PWY-6210: 2-aminophenol degradation, PWY-6263: superpathway of menaquinol-8 biosynthesis II, PWY-6269: superpathway of adenosylcobalamin salvage from cobinamide II, PWY-6281: L-selenocysteine biosynthesis II (archaea and eukaryotes), PWY-6307: L-tryptophan degradation X (mammalian, via tryptamine), PWY-6309: L-tryptophan degradation XI (mammalian, via kynurenine), PWY-6339: syringate degradation, PWY-6344: L-arginine degradation XIV (oxidative Stickland reaction), PWY-6349: CDP-archaeol biosynthesis, PWY-6350: archaetidylinositol biosynthesis, PWY-6351: D-myo-inositol (1,4,5)-trisphosphate biosynthesis, PWY-6395: superpathway of seleno-compound metabolism, PWY-6397: mycolyl-arabinogalactan-peptidoglycan complex biosynthesis, PWY-6404: superpathway of mycolyl-arabinogalactan-peptidoglycan complex biosynthesis, PWY-6421: arsenate detoxification IV (mycothiol), PWY-6491: D-galacturonate degradation III, PWY-6518: bile acids epimerization, PWY-6524: lychnose and isolychnose biosynthesis, PWY-6538: caffeine degradation III (bacteria, via demethylation), PWY-6662: superpathway of quinolone and alkylquinolone biosynthesis, PWY-6676: superpathway of sulfide oxidation (phototrophic sulfur bacteria), PWY-6692: Fe(II) oxidation, PWY-6714: L-rhamnose degradation III, PWY-6728: methylaspartate cycle, PWY-6748: nitrate reduction VII (denitrification), PWY-6797: 6-hydroxymethyl-dihydropterin diphosphate biosynthesis II (Methanocaldococcus), PWY-6807: xyloglucan degradation II (exoglucanase), PWY-6837: fatty acid &beta;-oxidation V (unsaturated, odd number, di-isomerase-dependent), PWY-6857: retinol biosynthesis, PWY-6873: long chain fatty acid ester synthesis (engineered), PWY-6876: isopropanol biosynthesis (engineered), PWY-6886: 1-butanol autotrophic biosynthesis (engineered), PWY-6891: thiazole component of thiamine diphosphate biosynthesis II, PWY-6942: dTDP-D-desosamine biosynthesis, PWY-6946: cholesterol degradation to androstenedione II (cholesterol dehydrogenase), PWY-6948: sitosterol degradation to androstenedione, PWY-6957: mandelate degradation to acetyl-CoA, PWY-6981: chitin biosynthesis, PWY-7000: kanamycin biosynthesis, PWY-7009: 2,2'-dihydroxybiphenyl degradation, PWY-7031: protein N-glycosylation (bacterial), PWY-7052: cyanophycin metabolism, PWY-7098: vanillin and vanillate degradation II, PWY-7124: ethene biosynthesis V (engineered), PWY-722: nicotinate degradation I, PWY-7230: ubiquinol-6 biosynthesis from 4-aminobenzoate (yeast), PWY-7245: superpathway of NAD/NADP - NADH/NADPH interconversion (yeast), PWY-7268: cytosolic NADPH production (yeast), PWY-7270: L-methionine salvage cycle II (plants), PWY-7274: D-cycloserine biosynthesis, PWY-7277: sphingolipid biosynthesis (mammals), PWY-7283: wybutosine biosynthesis, PWY-7286: 7-(3-amino-3-carboxypropyl)-wyosine biosynthesis, PWY-7290: Escherichia coli serotype O86 O-antigen biosynthesis, PWY-7294: D-xylose degradation IV, PWY-7295: L-arabinose degradation IV, PWY-7317: superpathway of dTDP-glucose-derived O-antigen building blocks biosynthesis, PWY-7337: 10-cis-heptadecenoyl-CoA degradation (yeast), PWY-7338: 10-trans-heptadecenoyl-CoA degradation (reductase-dependent, yeast), PWY-7347: sucrose biosynthesis III, PWY-7371: 1,4-dihydroxy-6-naphthoate biosynthesis II, PWY-7373: superpathway of demethylmenaquinol-6 biosynthesis II, PWY-7374: 1,4-dihydroxy-6-naphthoate biosynthesis I, PWY-7376: cob(II)yrinate a,c-diamide biosynthesis II (late cobalt incorporation), PWY-7377: cob(II)yrinate a,c-diamide biosynthesis I (early cobalt insertion), PWY-7391: isoprene biosynthesis II (engineered), PWY-7396: butanol and isobutanol biosynthesis (engineered), PWY-7399: methylphosphonate degradation II, PWY-7401: crotonate fermentation (to acetate and cyclohexane carboxylate), PWY-7411: phosphatidate biosynthesis (yeast), PWY-7413: dTDP-6-deoxy-&alpha;-D-allose biosynthesis, PWY-7431: aromatic biogenic amine degradation (bacteria), PWY-7434: terminal O-glycans residues modification (via type 2 precursor disaccharide), PWY-7480: 2,3-dihydroxybenzoate degradation, PWY-7511: protein ubiquitination, PWY-7527: L-methionine salvage cycle III, PWY-7546: diphthamide biosynthesis II (eukaryotes), PWY-7574: propanoyl-CoA degradation II, PWY-7698: 2,5-xylenol and 3,5-xylenol degradation, PWY-7731: superpathway of photosynthetic hydrogen production, PWY-7746: mycobacterial sulfolipid biosynthesis, PWY-7783: plasmalogen degradation, PWY-7784: reductive acetyl coenzyme A pathway II (autotrophic methanogens), PWY-7789: erythritol degradation I, PWY-7853: 6-hydroxymethyl-dihydropterin diphosphate biosynthesis V (Pyrococcus), PWY-7854: crotonyl-CoA/ethylmalonyl-CoA/hydroxybutyryl-CoA cycle (engineered), PWY-7897: flavonoid di-C-glucosylation, PWY-7900: glycogen biosynthesis III (from &alpha;-maltose 1-phosphate), PWY-7919: protein N-glycosylation processing phase (plants and animals), PWY-7992: superpathway of menaquinol-8 biosynthesis III, PWY-8011: L-serine biosynthesis II, PWY-8051: anandamide biosynthesis I, PWY-8052: 2-arachidonoylglycerol biosynthesis, PWY-8055: palmitoyl ethanolamide biosynthesis, PWY-8112: factor 420 biosynthesis I (archaea), PWY-8113: 3PG-factor 420 biosynthesis, PWY-8125: mevalonate pathway IV (archaea), PWY-8134: bile acid 7&beta;-dehydroxylation, PWY-8142: L-ascorbate biosynthesis VI (plants, myo-inositol pathway), PWY-8173: anteiso-branched-chain fatty acid biosynthesis, PWY-8174: odd iso-branched-chain fatty acid biosynthesis, PWY-8175: even iso-branched-chain fatty acid biosynthesis, PWY-8181: 2-methyl-branched fatty acid &beta;-oxidation, PWY-8188: L-alanine degradation VI (reductive Stickland reaction), PWY-8189: L-alanine degradation V (oxidative Stickland reaction), PWY1F-823: leucopelargonidin and leucocyanidin biosynthesis, PWY1F-FLAVSYN: flavonoid biosynthesis, PWY3DJ-12: ceramide de novo biosynthesis, PWY3DJ-35471: L-ascorbate biosynthesis IV (animals, D-glucuronate pathway), PWY490-3: nitrate reduction VI (assimilatory), PWY5F9-12: biphenyl degradation, PWY66-201: nicotine degradation IV, PWY66-373: sucrose degradation V (sucrose &alpha;-glucosidase), PWY66-388: ceramide degradation by &alpha;-oxidation, PWY66-398: TCA cycle III (animals), SUCSYN-PWY: sucrose biosynthesis I (from photosynthesis), THISYNARA-PWY: superpathway of thiamine diphosphate biosynthesis III (eukaryotes), TRIGLSYN-PWY: diacylglycerol and triacylglycerol biosynthesis, TRYPTOPHAN-DEGRADATION-1: L-tryptophan degradation III (eukaryotic), TYRFUMCAT-PWY: L-tyrosine degradation I
-2025-09-25 07:40:50.161378 INFO::Total features filtered by non-zero variance filtering: 0
-2025-09-25 07:40:50.161819 INFO::Filtered feature names from variance filtering:
-2025-09-25 07:40:50.162053 INFO::Writing filtered data to file ../data/maaslin_fits/over1_cross_taxa/features/filtered_data.tsv
-2025-09-25 07:40:50.171771 INFO::Running selected transform method: LOG
-2025-09-25 07:40:50.173737 INFO::Writing normalized, filtered, transformed data to file ../data/maaslin_fits/over1_cross_taxa/features/data_transformed.tsv
-2025-09-25 07:40:50.182303 INFO::Applying z-score to standardize continuous metadata
-2025-09-25 07:40:50.184359 INFO::Running the linear model component
-2025-09-25 07:40:50.185843 INFO::Creating cluster of 10 R processes
-2025-09-25 07:40:54.3594 DEBUG::Object: augment, Size: 56
-2025-09-25 07:40:54.359746 DEBUG::Object: cluster, Size: 14872
-2025-09-25 07:40:54.360009 DEBUG::Object: cores, Size: 56
-2025-09-25 07:40:54.36013 DEBUG::Object: correction, Size: 112
-2025-09-25 07:40:54.360239 DEBUG::Object: extract_out, Size: 1864
-2025-09-25 07:40:54.360345 DEBUG::Object: feature_specific_covariate, Size: 0
-2025-09-25 07:40:54.360449 DEBUG::Object: feature_specific_covariate_name, Size: 0
-2025-09-25 07:40:54.360551 DEBUG::Object: feature_specific_covariate_record, Size: 0
-2025-09-25 07:40:54.360688 DEBUG::Object: features, Size: 312824
-2025-09-25 07:40:54.360792 DEBUG::Object: formula, Size: 1456
-2025-09-25 07:40:54.360912 DEBUG::Object: fun_list, Size: 124640
-2025-09-25 07:40:54.361061 DEBUG::Object: func_to_run, Size: 435336
-2025-09-25 07:40:54.36116 DEBUG::Object: groups, Size: 48
-2025-09-25 07:40:54.361259 DEBUG::Object: median_comparison, Size: 56
-2025-09-25 07:40:54.361358 DEBUG::Object: median_comparison_threshold, Size: 56
-2025-09-25 07:40:54.361477 DEBUG::Object: metadata, Size: 30960
-2025-09-25 07:40:54.361568 DEBUG::Object: model, Size: 112
-2025-09-25 07:40:54.361659 DEBUG::Object: model_function, Size: 71464
-2025-09-25 07:40:54.361747 DEBUG::Object: ordereds, Size: 48
-2025-09-25 07:40:54.361831 DEBUG::Object: random_effects_formula, Size: 1456
-2025-09-25 07:40:54.361917 DEBUG::Object: ranef_function, Size: 1240
-2025-09-25 07:40:54.362001 DEBUG::Object: save_models, Size: 56
-2025-09-25 07:40:54.362084 DEBUG::Object: small_random_effects, Size: 56
-2025-09-25 07:40:54.362169 DEBUG::Object: strata, Size: 48
-2025-09-25 07:40:54.362253 DEBUG::Object: subtract_median, Size: 56
-2025-09-25 07:40:54.362342 DEBUG::Object: summary_function, Size: 51456
-2025-09-25 07:40:54.36246 DEBUG::Object: func_to_run, Size: 435336
-2025-09-25 07:40:56.496587 INFO::Performing tests against medians
-2025-09-25 07:40:57.556229 INFO::Counting total values for each feature
-2025-09-25 07:40:57.559779 INFO::Running the logistic model component
-2025-09-25 07:40:57.561046 INFO::Creating cluster of 10 R processes
-2025-09-25 07:41:26.860961 DEBUG::Object: augment, Size: 56
-2025-09-25 07:41:26.86338 DEBUG::Object: cluster, Size: 14872
-2025-09-25 07:41:26.863789 DEBUG::Object: cores, Size: 56
-2025-09-25 07:41:26.86393 DEBUG::Object: correction, Size: 112
-2025-09-25 07:41:26.864047 DEBUG::Object: extract_out, Size: 1864
-2025-09-25 07:41:26.864149 DEBUG::Object: feature_specific_covariate, Size: 0
-2025-09-25 07:41:26.864245 DEBUG::Object: feature_specific_covariate_name, Size: 0
-2025-09-25 07:41:26.864341 DEBUG::Object: feature_specific_covariate_record, Size: 0
-2025-09-25 07:41:26.864456 DEBUG::Object: features, Size: 288352
-2025-09-25 07:41:26.864559 DEBUG::Object: formula, Size: 1456
-2025-09-25 07:41:26.864683 DEBUG::Object: fun_list, Size: 212584
-2025-09-25 07:41:26.864833 DEBUG::Object: func_to_run, Size: 435336
-2025-09-25 07:41:26.864928 DEBUG::Object: groups, Size: 48
-2025-09-25 07:41:26.865025 DEBUG::Object: median_comparison, Size: 56
-2025-09-25 07:41:26.86512 DEBUG::Object: median_comparison_threshold, Size: 56
-2025-09-25 07:41:26.865246 DEBUG::Object: metadata, Size: 30960
-2025-09-25 07:41:26.865342 DEBUG::Object: model, Size: 120
-2025-09-25 07:41:26.865447 DEBUG::Object: model_function, Size: 161200
-2025-09-25 07:41:26.865539 DEBUG::Object: ordereds, Size: 48
-2025-09-25 07:41:26.865635 DEBUG::Object: random_effects_formula, Size: 1456
-2025-09-25 07:41:26.865727 DEBUG::Object: ranef_function, Size: 1240
-2025-09-25 07:41:26.865817 DEBUG::Object: save_models, Size: 56
-2025-09-25 07:41:26.865916 DEBUG::Object: small_random_effects, Size: 56
-2025-09-25 07:41:26.866026 DEBUG::Object: strata, Size: 48
-2025-09-25 07:41:26.866148 DEBUG::Object: subtract_median, Size: 56
-2025-09-25 07:41:26.866251 DEBUG::Object: summary_function, Size: 49664
-2025-09-25 07:41:26.86638 DEBUG::Object: func_to_run, Size: 435336
-2025-09-25 07:41:34.213718 INFO::Counting total values for each feature
-2025-09-25 07:41:34.231647 INFO::Re-running abundances for warn_prevalence
-2025-09-25 07:41:34.233344 INFO::Running selected normalization method: TSS
-2025-09-25 07:41:34.265615 INFO::Running selected transform method: LOG
-2025-09-25 07:41:34.282453 INFO::Creating cluster of 10 R processes
-2025-09-25 07:41:38.951531 DEBUG::Object: augment, Size: 56
-2025-09-25 07:41:38.951897 DEBUG::Object: cluster, Size: 14872
-2025-09-25 07:41:38.952037 DEBUG::Object: cores, Size: 56
-2025-09-25 07:41:38.952154 DEBUG::Object: correction, Size: 112
-2025-09-25 07:41:38.952283 DEBUG::Object: extract_out, Size: 1864
-2025-09-25 07:41:38.952404 DEBUG::Object: feature_specific_covariate, Size: 0
-2025-09-25 07:41:38.952532 DEBUG::Object: feature_specific_covariate_name, Size: 0
-2025-09-25 07:41:38.952648 DEBUG::Object: feature_specific_covariate_record, Size: 0
-2025-09-25 07:41:38.9528 DEBUG::Object: features, Size: 312824
-2025-09-25 07:41:38.952919 DEBUG::Object: formula, Size: 1456
-2025-09-25 07:41:38.953048 DEBUG::Object: fun_list, Size: 124640
-2025-09-25 07:41:38.953233 DEBUG::Object: func_to_run, Size: 435336
-2025-09-25 07:41:38.953374 DEBUG::Object: groups, Size: 48
-2025-09-25 07:41:38.953477 DEBUG::Object: median_comparison, Size: 56
-2025-09-25 07:41:38.953586 DEBUG::Object: median_comparison_threshold, Size: 56
-2025-09-25 07:41:38.953701 DEBUG::Object: metadata, Size: 30960
-2025-09-25 07:41:38.953806 DEBUG::Object: model, Size: 112
-2025-09-25 07:41:38.953913 DEBUG::Object: model_function, Size: 71464
-2025-09-25 07:41:38.954013 DEBUG::Object: ordereds, Size: 48
-2025-09-25 07:41:38.954187 DEBUG::Object: random_effects_formula, Size: 1456
-2025-09-25 07:41:38.954425 DEBUG::Object: ranef_function, Size: 1240
-2025-09-25 07:41:38.954557 DEBUG::Object: save_models, Size: 56
-2025-09-25 07:41:38.954669 DEBUG::Object: small_random_effects, Size: 56
-2025-09-25 07:41:38.954774 DEBUG::Object: strata, Size: 48
-2025-09-25 07:41:38.954886 DEBUG::Object: subtract_median, Size: 56
-2025-09-25 07:41:38.955083 DEBUG::Object: summary_function, Size: 51456
-2025-09-25 07:41:38.955338 DEBUG::Object: func_to_run, Size: 435336
-2025-09-25 07:41:41.076158 WARNING::Deleting existing residuals file: ../data/maaslin_fits/over1_cross_taxa/fits/residuals_linear.rds
-2025-09-25 07:41:41.076998 INFO::Writing residuals to file ../data/maaslin_fits/over1_cross_taxa/fits/residuals_linear.rds
-2025-09-25 07:41:41.083783 WARNING::Deleting existing fitted file: ../data/maaslin_fits/over1_cross_taxa/fits/fitted_linear.rds
-2025-09-25 07:41:41.084188 INFO::Writing fitted values to file ../data/maaslin_fits/over1_cross_taxa/fits/fitted_linear.rds
-2025-09-25 07:41:41.08666 WARNING::Deleting existing ranef file: ../data/maaslin_fits/over1_cross_taxa/fits/ranef_linear.rds
-2025-09-25 07:41:41.087041 INFO::Writing extracted random effects to file ../data/maaslin_fits/over1_cross_taxa/fits/ranef_linear.rds
-2025-09-25 07:41:41.087984 WARNING::Deleting existing residuals file: ../data/maaslin_fits/over1_cross_taxa/fits/residuals_logistic.rds
-2025-09-25 07:41:41.088469 INFO::Writing residuals to file ../data/maaslin_fits/over1_cross_taxa/fits/residuals_logistic.rds
-2025-09-25 07:41:41.094039 WARNING::Deleting existing fitted file: ../data/maaslin_fits/over1_cross_taxa/fits/fitted_logistic.rds
-2025-09-25 07:41:41.094484 INFO::Writing fitted values to file ../data/maaslin_fits/over1_cross_taxa/fits/fitted_logistic.rds
-2025-09-25 07:41:41.098655 WARNING::Deleting existing ranef file: ../data/maaslin_fits/over1_cross_taxa/fits/ranef_logistic.rds
-2025-09-25 07:41:41.099038 INFO::Writing extracted random effects to file ../data/maaslin_fits/over1_cross_taxa/fits/ranef_logistic.rds
-2025-09-25 07:41:41.101017 INFO::Writing all the results to file (ordered 
+2025-11-20 17:17:06.363571 INFO::Writing function arguments to log file
+2025-11-20 17:17:06.368419 DEBUG::Function arguments
+2025-11-20 17:17:06.372246 DEBUG::Output folder: ../data/maaslin_fits/over1_cross_taxa
+2025-11-20 17:17:06.372414 DEBUG::Formula: ~ tbClass + (1|sex)
+2025-11-20 17:17:06.372548 DEBUG::Fixed effects:
+2025-11-20 17:17:06.372676 DEBUG::Reference:
+2025-11-20 17:17:06.372805 DEBUG::Random effects:
+2025-11-20 17:17:06.372925 DEBUG::Group effects:
+2025-11-20 17:17:06.373047 DEBUG::Ordered effects:
+2025-11-20 17:17:06.373171 DEBUG::Strata effects:
+2025-11-20 17:17:06.373294 DEBUG::Min Abundance: 0.000000
+2025-11-20 17:17:06.373413 DEBUG::Min Prevalence: 0.300000
+2025-11-20 17:17:06.373537 DEBUG::Zero Threshold: 0.000000
+2025-11-20 17:17:06.373657 DEBUG::Min variance: 0.000000
+2025-11-20 17:17:06.373782 DEBUG::Max significance: 0.050000
+2025-11-20 17:17:06.373897 DEBUG::Normalization: TSS
+2025-11-20 17:17:06.374014 DEBUG::Transform: LOG
+2025-11-20 17:17:06.374132 DEBUG::Correction method: BH
+2025-11-20 17:17:06.374251 DEBUG::Standardize: TRUE
+2025-11-20 17:17:06.37438 DEBUG::Abundance median comparison: TRUE
+2025-11-20 17:17:06.374504 DEBUG::Prevalence median comparison: FALSE
+2025-11-20 17:17:06.374622 DEBUG::Abundance median comparison threshold: 0
+2025-11-20 17:17:06.374742 DEBUG::Prevalence median comparison threshold: 0
+2025-11-20 17:17:06.374861 DEBUG::Subtract median: FALSE
+2025-11-20 17:17:06.374985 DEBUG::Warn prevalence: TRUE
+2025-11-20 17:17:06.375107 DEBUG::Small random effects: FALSE
+2025-11-20 17:17:06.375227 DEBUG::Augment: TRUE
+2025-11-20 17:17:06.375345 DEBUG::Evaluate only:
+2025-11-20 17:17:06.37547 DEBUG::Cores: 10
+2025-11-20 17:17:06.375582 DEBUG::Balanced Summary plot: FALSE
+2025-11-20 17:17:06.375825 INFO::Verifying options selected are valid
+2025-11-20 17:17:06.376502 INFO::Determining format of input files
+2025-11-20 17:17:06.376807 INFO::Input format is data samples as columns and metadata samples as rows
+2025-11-20 17:17:06.37963 DEBUG::Transformed data so samples are rows
+2025-11-20 17:17:06.379801 DEBUG::A total of 77 samples were found in both the data and metadata
+2025-11-20 17:17:06.380049 INFO::The following samples were found to have features but no metadata (or feature specific covariates if applicable). They will be removed. LIB003301_22C2NCLT3_S20_L003,LIB003304_22C2NCLT3_S17_L003,LIB003307_22C2NCLT3_S14_L003,LIB061830_22H3KFLT4_S1_L007,LIB061832_22H3KFLT4_S3_L007,LIB061833_22H3KFLT4_S4_L007,LIB061834_22H3KFLT4_S5_L007,LIB061837_22H3KFLT4_S8_L007,LIB061838_22H3KFLT4_S9_L007,LIB061839_22H3KFLT4_S10_L007,LIB061840_22H3KFLT4_S11_L007,LIB061841_22H3KFLT4_S12_L007,LIB061842_22H3KFLT4_S13_L007,LIB061844_22H3KFLT4_S15_L007,LIB061845_22H3KFLT4_S16_L007,LIB061846_22H3KFLT4_S17_L007,LIB061847_22H3KFLT4_S18_L007,LIB061849_22H3KFLT4_S20_L007,LIB061851_22H3KFLT4_S22_L007,LIB061853_22H3KFLT4_S24_L007,LIB061856_22H3KFLT4_S27_L007,LIB061858_22H3KFLT4_S29_L007,LIB061859_22H3KFLT4_S30_L007,LIB061860_22H3KFLT4_S31_L007,LIB061861_22H3KFLT4_S32_L007,LIB061862_22H3KFLT4_S33_L007,LIB061863_22H3KFLT4_S34_L007,LIB061864_22H3KFLT4_S35_L007,LIB061865_22H3KFLT4_S36_L007,LIB061866_22H3KFLT4_S37_L007,LIB061867_22H3KFLT4_S38_L007,LIB061868_22H3KFLT4_S39_L007,LIB061869_22H3KFLT4_S40_L007,LIB061870_22H3KFLT4_S41_L007,LIB061871_22H3KFLT4_S42_L007,LIB061875_22H3KFLT4_S46_L007,LIB061877_22H3KFLT4_S48_L007,LIB061880_22H3KFLT4_S51_L007,LIB061882_22H3KFLT4_S53_L007,LIB061883_22H3KFLT4_S54_L007,LIB061884_22H3KFLT4_S55_L007,LIB061885_22H3KFLT4_S56_L007,LIB061887_22H3KFLT4_S58_L007,LIB061893_22H3KFLT4_S64_L007,LIB061894_22H3KFLT4_S65_L007,LIB061897_22H3KFLT4_S68_L007,LIB061898_22H3KFLT4_S69_L007,LIB061900_22H3KFLT4_S71_L007,LIB061901_22H3KFLT4_S72_L007,LIB061902_22H3KFLT4_S73_L007,LIB061903_22H3KFLT4_S74_L007,LIB061904_22H3KFLT4_S75_L007,LIB061906_22H3KFLT4_S77_L007,LIB061908_22H3KFLT4_S79_L007,LIB061909_22H3KFLT4_S80_L007,LIB061910_22H3KFLT4_S81_L007,LIB061911_22H3KFLT4_S82_L007,LIB061913_22H3KFLT4_S84_L007,LIB061914_22H3KFLT4_S85_L007,LIB061916_22H3KFLT4_S87_L007,LIB061917_22H3KFLT4_S88_L007,LIB061919_22H3KFLT4_S90_L007,LIB061920_22H3KFLT4_S91_L007,LIB061921_22H3KFLT4_S92_L007,LIB061923_22H3KFLT4_S94_L007,LIB061925_22H3KFLT4_S96_L007,LIB072748_22HNWVLT4_S55_L002,LIB072749_22HNWVLT4_S56_L002,LIB072750_22HNWVLT4_S57_L002,LIB072752_22HNWVLT4_S59_L002,LIB072753_22HNWVLT4_S60_L002,LIB072754_22HNWVLT4_S61_L002,LIB072755_22HNWVLT4_S62_L002,LIB072756_22HNWVLT4_S63_L002,LIB072757_22HNWVLT4_S64_L002,LIB072760_22HNWVLT4_S67_L002,LIB072762_22HNWVLT4_S69_L002,LIB072764_22HNWVLT4_S71_L002,LIB072766_22HNWVLT4_S73_L002,LIB072767_22HNWVLT4_S74_L002,LIB072768_22HNWVLT4_S75_L002,LIB072772_22HNWVLT4_S79_L002,LIB072775_22HNWVLT4_S82_L003,LIB072776_22HNWVLT4_S83_L003,LIB072777_22HNWVLT4_S84_L003,LIB072779_22HNWVLT4_S86_L003,LIB072781_22HNWVLT4_S88_L003,LIB072783_22HNWVLT4_S90_L003,LIB072789_22HNWVLT4_S96_L003,LIB072791_22HNWVLT4_S98_L003,LIB072792_22HNWVLT4_S99_L003,LIB072793_22HNWVLT4_S100_L003,LIB072797_22HNWVLT4_S104_L003,LIB072798_22HNWVLT4_S105_L003,LIB072799_22HNWVLT4_S106_L003,LIB072805_22HNWVLT4_S112_L003,LIB072807_22HNWVLT4_S114_L003,LIB072808_22HNWVLT4_S115_L003,LIB072809_22HNWVLT4_S116_L003,LIB072811_22HNWVLT4_S118_L003,LIB072813_22HNWVLT4_S120_L003,LIB072814_22HNWVLT4_S121_L003,LIB072816_22HNWVLT4_S123_L003,LIB072817_22HNWVLT4_S124_L003,LIB072818_22HNWVLT4_S125_L003,LIB072819_22HNWVLT4_S126_L003,LIB072820_22HNWVLT4_S127_L003,LIB072823_22HNWVLT4_S130_L003,LIB072826_22HNWVLT4_S133_L003,LIB072827_22HNWVLT4_S134_L003,LIB072828_22HNWVLT4_S135_L003,LIB072829_22HNWVLT4_S136_L003,LIB072830_22HNWVLT4_S137_L003,LIB072831_22HNWVLT4_S138_L003,LIB072834_22HNWVLT4_S141_L003,LIB072838_22HNWVLT4_S145_L003,LIB072842_22HNWVLT4_S149_L003,LIB072843_22HNWVLT4_S150_L003,LIB076949_22MG27LT4_S64_L002,LIB076952_22MG27LT4_S67_L002,LIB076955_22MG27LT4_S70_L002,LIB076961_22MG27LT4_S76_L002,LIB076962_22MG27LT4_S77_L002,LIB076963_22MG27LT4_S78_L002,LIB076964_22MG27LT4_S79_L002,LIB076965_22MG27LT4_S80_L002,LIB076966_22MG27LT4_S81_L002,LIB076967_22MG27LT4_S82_L002,LIB076968_22MG27LT4_S83_L002,LIB076969_22MG27LT4_S84_L002,LIB076973_22MG27LT4_S88_L002,LIB076974_22MG27LT4_S89_L002,LIB076976_22MG27LT4_S91_L002,LIB076977_22MG27LT4_S92_L002,LIB076978_22MG27LT4_S93_L002,LIB076982_22MG27LT4_S97_L002,LIB076985_22MG27LT4_S100_L002,LIB076986_22MG27LT4_S101_L002,LIB076988_22MG27LT4_S103_L002,LIB076989_22MG27LT4_S104_L002,LIB076990_22MG27LT4_S105_L002,LIB076991_22MG27LT4_S106_L002,LIB076992_22MG27LT4_S107_L002,LIB076993_22MG27LT4_S108_L002,LIB076994_22MG27LT4_S109_L002,LIB076998_22MG27LT4_S113_L002,LIB077003_22MG27LT4_S118_L002,LIB077007_22MG27LT4_S122_L002,LIB077008_22MG27LT4_S123_L002,LIB077014_22MG27LT4_S129_L002,LIB077015_22MG27LT4_S130_L002,LIB077016_22MG27LT4_S131_L002,LIB077019_22MG27LT4_S134_L002,LIB077020_22MG27LT4_S135_L002,LIB077021_22MG27LT4_S136_L002,LIB077022_22MG27LT4_S137_L002,LIB077023_22MG27LT4_S138_L002,LIB077024_22MG27LT4_S139_L002,LIB077025_22MG27LT4_S140_L002,LIB077026_22MG27LT4_S141_L002,LIB077027_22MG27LT4_S142_L002,LIB077030_22MG27LT4_S145_L002,LIB077032_22MG27LT4_S147_L002,LIB077033_22MG27LT4_S148_L002,LIB077035_22MG27LT4_S150_L002,LIB077036_22MG27LT4_S151_L002,LIB077037_22MG27LT4_S152_L002,LIB077038_22MG27LT4_S153_L002
+2025-11-20 17:17:06.380457 DEBUG::Reordering data/metadata to use same sample ordering
+2025-11-20 17:17:06.383558 INFO::Running selected normalization method: TSS
+2025-11-20 17:17:06.390244 INFO::Writing normalized data to file ../data/maaslin_fits/over1_cross_taxa/features/data_norm.tsv
+2025-11-20 17:17:06.404594 INFO::Filter data based on min abundance and min prevalence
+2025-11-20 17:17:06.404836 INFO::Total samples in data: 77
+2025-11-20 17:17:06.405045 INFO::Min samples required with min abundance for a feature not to be filtered: 23.100000
+2025-11-20 17:17:06.432188 INFO::Total filtered features: 214
+2025-11-20 17:17:06.432726 INFO::Filtered feature names from abundance and prevalence filtering: 12DICHLORETHDEG-PWY: 1,2-dichloroethane degradation, 4-HYDROXYMANDELATE-DEGRADATION-PWY: 4-hydroxymandelate degradation, ALL-CHORISMATE-PWY: superpathway of chorismate metabolism, CATECHOL-ORTHO-CLEAVAGE-PWY: catechol degradation to &beta;-ketoadipate, CHLOROPHYLL-SYN: 3,8-divinyl-chlorophyllide a biosynthesis I (aerobic, light-dependent), CRNFORCAT-PWY: creatinine degradation I, DENITRIFICATION-PWY: nitrate reduction I (denitrification), DHGLUCONATE-PYR-CAT-PWY: glucose degradation (oxidative), ERGOSTEROL-SYN-PWY: superpathway of ergosterol biosynthesis I, GALLATE-DEGRADATION-II-PWY: gallate degradation I, GLUDEG-II-PWY: L-glutamate degradation VII (to butanoate), LIPA-CORESYN-PWY: lipid A-core biosynthesis (E. coli K-12), LPSSYN-PWY: superpathway of lipopolysaccharide biosynthesis, LYSINE-DEG1-PWY: L-lysine degradation XI (mammalian), M-CRESOL-DEGRADATION-PWY: m-cresol degradation, METHANOGENESIS-PWY: methanogenesis from H2 and CO2, METHYLGALLATE-DEGRADATION-PWY: methylgallate degradation, NADSYN-PWY: NAD de novo biosynthesis II (from tryptophan), NPGLUCAT-PWY: Entner-Doudoroff pathway II (non-phosphorylative), P101-PWY: ectoine biosynthesis, P165-PWY: superpathway of purines degradation in plants, P184-PWY: protocatechuate degradation I (meta-cleavage pathway), P261-PWY: coenzyme M biosynthesis I, P3-PWY: gallate degradation III (anaerobic), P562-PWY: myo-inositol degradation I, PHOTOALL-PWY: oxygenic photosynthesis, PROPFERM-PWY: superpathway of L-alanine fermentation (Stickland reaction), PWY-101: photosynthesis light reactions, PWY-1361: benzoyl-CoA degradation I (aerobic), PWY-1501: mandelate degradation I, PWY-1622: formaldehyde assimilation I (serine pathway), PWY-181: photorespiration, PWY-2504: superpathway of aromatic compound degradation via 3-oxoadipate, PWY-3081: L-lysine biosynthesis V, PWY-3481: superpathway of L-phenylalanine and L-tyrosine biosynthesis, PWY-3502: superpathway of NAD biosynthesis in eukaryotes, PWY-3661: glycine betaine degradation I, PWY-3941: &beta;-alanine biosynthesis II, PWY-4221: superpathway of coenzyme A biosynthesis II (plants), PWY-4702: phytate degradation I, PWY-4722: creatinine degradation II, PWY-5028: L-histidine degradation II, PWY-5044: purine nucleotides degradation I (plants), PWY-5055: nicotinate degradation III, PWY-5067: glycogen biosynthesis II (from UDP-D-Glucose), PWY-5080: very long chain fatty acid biosynthesis I, PWY-5109: propanoate fermentation to 2-methylbutanoate, PWY-5129: sphingolipid biosynthesis (plants), PWY-5156: superpathway of fatty acid biosynthesis II (plant), PWY-5178: toluene degradation IV (aerobic) (via catechol), PWY-5179: toluene degradation V (aerobic) (via toluene-cis-diol), PWY-5196: factor 430 biosynthesis, PWY-5198: factor 420 biosynthesis II (mycobacteria), PWY-5207: coenzyme B/coenzyme M regeneration I (methanophenazine-dependent), PWY-5209: methyl-coenzyme M oxidation to CO2, PWY-5266: p-cymene degradation, PWY-5273: p-cumate degradation, PWY-5280: L-lysine degradation IV, PWY-5283: L-lysine degradation V, PWY-5381: NAD salvage (plants), PWY-5417: catechol degradation III (ortho-cleavage pathway), PWY-5419: catechol degradation to 2-hydroxypentadienoate II, PWY-5420: catechol degradation II (meta-cleavage pathway), PWY-5430: meta cleavage pathway of aromatic compounds, PWY-5431: aromatic compounds degradation via &beta;-ketoadipate, PWY-5494: pyruvate fermentation to propanoate II (acrylate pathway), PWY-5532: nucleoside and nucleotide degradation (archaea), PWY-5647: 2-nitrobenzoate degradation I, PWY-5651: L-tryptophan degradation to 2-amino-3-carboxymuconate semialdehyde, PWY-5654: 2-amino-3-carboxymuconate semialdehyde degradation to 2-hydroxypentadienoate, PWY-5655: L-tryptophan degradation IX, PWY-5677: succinate fermentation to butanoate, PWY-5724: superpathway of atrazine degradation, PWY-5742: L-arginine degradation IX (arginine:pyruvate transaminase pathway), PWY-5743: 3-hydroxypropanoate cycle, PWY-5757: fosfomycin biosynthesis, PWY-5789: 3-hydroxypropanoate/4-hydroxybutanate cycle, PWY-5872: ubiquinol-10 biosynthesis (late decarboxylation), PWY-6075: ergosterol biosynthesis I, PWY-6093: 4,5-dichlorocatechol degradation, PWY-6107: chlorosalicylate degradation, PWY-6145: superpathway of CMP-sialic acids biosynthesis, PWY-6148: tetrahydromethanopterin biosynthesis, PWY-6160: 3-dehydroquinate biosynthesis II (archaea), PWY-6165: chorismate biosynthesis II (archaea), PWY-6167: flavin biosynthesis II (archaea), PWY-6174: mevalonate pathway II (haloarchaea), PWY-6182: superpathway of salicylate degradation, PWY-6185: 4-methylcatechol degradation (ortho cleavage), PWY-6210: 2-aminophenol degradation, PWY-6263: superpathway of menaquinol-8 biosynthesis II, PWY-6269: superpathway of adenosylcobalamin salvage from cobinamide II, PWY-6281: L-selenocysteine biosynthesis II (archaea and eukaryotes), PWY-6307: L-tryptophan degradation X (mammalian, via tryptamine), PWY-6309: L-tryptophan degradation XI (mammalian, via kynurenine), PWY-6339: syringate degradation, PWY-6344: L-arginine degradation XIV (oxidative Stickland reaction), PWY-6349: CDP-archaeol biosynthesis, PWY-6350: archaetidylinositol biosynthesis, PWY-6351: D-myo-inositol (1,4,5)-trisphosphate biosynthesis, PWY-6395: superpathway of seleno-compound metabolism, PWY-6396: superpathway of 2,3-butanediol biosynthesis, PWY-6397: mycolyl-arabinogalactan-peptidoglycan complex biosynthesis, PWY-6404: superpathway of mycolyl-arabinogalactan-peptidoglycan complex biosynthesis, PWY-6421: arsenate detoxification IV (mycothiol), PWY-6491: D-galacturonate degradation III, PWY-6518: bile acids epimerization, PWY-6524: lychnose and isolychnose biosynthesis, PWY-6538: caffeine degradation III (bacteria, via demethylation), PWY-6662: superpathway of quinolone and alkylquinolone biosynthesis, PWY-6676: superpathway of sulfide oxidation (phototrophic sulfur bacteria), PWY-6692: Fe(II) oxidation, PWY-6714: L-rhamnose degradation III, PWY-6728: methylaspartate cycle, PWY-6748: nitrate reduction VII (denitrification), PWY-6797: 6-hydroxymethyl-dihydropterin diphosphate biosynthesis II (Methanocaldococcus), PWY-6807: xyloglucan degradation II (exoglucanase), PWY-6837: fatty acid &beta;-oxidation V (unsaturated, odd number, di-isomerase-dependent), PWY-6857: retinol biosynthesis, PWY-6873: long chain fatty acid ester synthesis (engineered), PWY-6876: isopropanol biosynthesis (engineered), PWY-6886: 1-butanol autotrophic biosynthesis (engineered), PWY-6891: thiazole component of thiamine diphosphate biosynthesis II, PWY-6942: dTDP-D-desosamine biosynthesis, PWY-6946: cholesterol degradation to androstenedione II (cholesterol dehydrogenase), PWY-6948: sitosterol degradation to androstenedione, PWY-6957: mandelate degradation to acetyl-CoA, PWY-6981: chitin biosynthesis, PWY-7000: kanamycin biosynthesis, PWY-7009: 2,2'-dihydroxybiphenyl degradation, PWY-7031: protein N-glycosylation (bacterial), PWY-7052: cyanophycin metabolism, PWY-7090: UDP-2,3-diacetamido-2,3-dideoxy-&alpha;-D-mannuronate biosynthesis, PWY-7098: vanillin and vanillate degradation II, PWY-7124: ethene biosynthesis V (engineered), PWY-7165: L-ascorbate biosynthesis VIII (engineered pathway), PWY-722: nicotinate degradation I, PWY-7230: ubiquinol-6 biosynthesis from 4-aminobenzoate (yeast), PWY-7245: superpathway of NAD/NADP - NADH/NADPH interconversion (yeast), PWY-7268: cytosolic NADPH production (yeast), PWY-7270: L-methionine salvage cycle II (plants), PWY-7274: D-cycloserine biosynthesis, PWY-7277: sphingolipid biosynthesis (mammals), PWY-7283: wybutosine biosynthesis, PWY-7286: 7-(3-amino-3-carboxypropyl)-wyosine biosynthesis, PWY-7290: Escherichia coli serotype O86 O-antigen biosynthesis, PWY-7294: D-xylose degradation IV, PWY-7295: L-arabinose degradation IV, PWY-7317: superpathway of dTDP-glucose-derived O-antigen building blocks biosynthesis, PWY-7337: 10-cis-heptadecenoyl-CoA degradation (yeast), PWY-7338: 10-trans-heptadecenoyl-CoA degradation (reductase-dependent, yeast), PWY-7347: sucrose biosynthesis III, PWY-7371: 1,4-dihydroxy-6-naphthoate biosynthesis II, PWY-7373: superpathway of demethylmenaquinol-6 biosynthesis II, PWY-7374: 1,4-dihydroxy-6-naphthoate biosynthesis I, PWY-7376: cob(II)yrinate a,c-diamide biosynthesis II (late cobalt incorporation), PWY-7377: cob(II)yrinate a,c-diamide biosynthesis I (early cobalt insertion), PWY-7391: isoprene biosynthesis II (engineered), PWY-7396: butanol and isobutanol biosynthesis (engineered), PWY-7399: methylphosphonate degradation II, PWY-7401: crotonate fermentation (to acetate and cyclohexane carboxylate), PWY-7411: phosphatidate biosynthesis (yeast), PWY-7413: dTDP-6-deoxy-&alpha;-D-allose biosynthesis, PWY-7431: aromatic biogenic amine degradation (bacteria), PWY-7434: terminal O-glycans residues modification (via type 2 precursor disaccharide), PWY-7480: 2,3-dihydroxybenzoate degradation, PWY-7511: protein ubiquitination, PWY-7527: L-methionine salvage cycle III, PWY-7546: diphthamide biosynthesis II (eukaryotes), PWY-7574: propanoyl-CoA degradation II, PWY-7698: 2,5-xylenol and 3,5-xylenol degradation, PWY-7731: superpathway of photosynthetic hydrogen production, PWY-7746: mycobacterial sulfolipid biosynthesis, PWY-7783: plasmalogen degradation, PWY-7784: reductive acetyl coenzyme A pathway II (autotrophic methanogens), PWY-7789: erythritol degradation I, PWY-7853: 6-hydroxymethyl-dihydropterin diphosphate biosynthesis V (Pyrococcus), PWY-7854: crotonyl-CoA/ethylmalonyl-CoA/hydroxybutyryl-CoA cycle (engineered), PWY-7897: flavonoid di-C-glucosylation, PWY-7900: glycogen biosynthesis III (from &alpha;-maltose 1-phosphate), PWY-7919: protein N-glycosylation processing phase (plants and animals), PWY-7992: superpathway of menaquinol-8 biosynthesis III, PWY-8011: L-serine biosynthesis II, PWY-8051: anandamide biosynthesis I, PWY-8052: 2-arachidonoylglycerol biosynthesis, PWY-8055: palmitoyl ethanolamide biosynthesis, PWY-8112: factor 420 biosynthesis I (archaea), PWY-8113: 3PG-factor 420 biosynthesis, PWY-8125: mevalonate pathway IV (archaea), PWY-8134: bile acid 7&beta;-dehydroxylation, PWY-8142: L-ascorbate biosynthesis VI (plants, myo-inositol pathway), PWY-8173: anteiso-branched-chain fatty acid biosynthesis, PWY-8174: odd iso-branched-chain fatty acid biosynthesis, PWY-8175: even iso-branched-chain fatty acid biosynthesis, PWY-8181: 2-methyl-branched fatty acid &beta;-oxidation, PWY-8182: valproate &beta;-oxidation, PWY-8188: L-alanine degradation VI (reductive Stickland reaction), PWY-8189: L-alanine degradation V (oxidative Stickland reaction), PWY1F-823: leucopelargonidin and leucocyanidin biosynthesis, PWY1F-FLAVSYN: flavonoid biosynthesis, PWY3DJ-12: ceramide de novo biosynthesis, PWY3DJ-35471: L-ascorbate biosynthesis IV (animals, D-glucuronate pathway), PWY490-3: nitrate reduction VI (assimilatory), PWY5F9-12: biphenyl degradation, PWY66-201: nicotine degradation IV, PWY66-367: ketogenesis, PWY66-373: sucrose degradation V (sucrose &alpha;-glucosidase), PWY66-388: ceramide degradation by &alpha;-oxidation, PWY66-398: TCA cycle III (animals), SUCSYN-PWY: sucrose biosynthesis I (from photosynthesis), THISYNARA-PWY: superpathway of thiamine diphosphate biosynthesis III (eukaryotes), TRIGLSYN-PWY: diacylglycerol and triacylglycerol biosynthesis, TRYPTOPHAN-DEGRADATION-1: L-tryptophan degradation III (eukaryotic), TYRFUMCAT-PWY: L-tyrosine degradation I
+2025-11-20 17:17:06.435984 INFO::Total features filtered by non-zero variance filtering: 0
+2025-11-20 17:17:06.436321 INFO::Filtered feature names from variance filtering:
+2025-11-20 17:17:06.436546 INFO::Writing filtered data to file ../data/maaslin_fits/over1_cross_taxa/features/filtered_data.tsv
+2025-11-20 17:17:06.473323 INFO::Running selected transform method: LOG
+2025-11-20 17:17:06.475459 INFO::Writing normalized, filtered, transformed data to file ../data/maaslin_fits/over1_cross_taxa/features/data_transformed.tsv
+2025-11-20 17:17:06.494363 INFO::Applying z-score to standardize continuous metadata
+2025-11-20 17:17:06.50441 INFO::Running the linear model component
+2025-11-20 17:17:06.745119 INFO::Creating cluster of 10 R processes
+2025-11-20 17:17:14.61273 DEBUG::Object: augment, Size: 56
+2025-11-20 17:17:14.613929 DEBUG::Object: cluster, Size: 14872
+2025-11-20 17:17:14.614318 DEBUG::Object: cores, Size: 56
+2025-11-20 17:17:14.614495 DEBUG::Object: correction, Size: 112
+2025-11-20 17:17:14.614633 DEBUG::Object: extract_out, Size: 1864
+2025-11-20 17:17:14.614756 DEBUG::Object: feature_specific_covariate, Size: 0
+2025-11-20 17:17:14.614917 DEBUG::Object: feature_specific_covariate_name, Size: 0
+2025-11-20 17:17:14.615046 DEBUG::Object: feature_specific_covariate_record, Size: 0
+2025-11-20 17:17:14.615207 DEBUG::Object: features, Size: 342144
+2025-11-20 17:17:14.615334 DEBUG::Object: formula, Size: 1456
+2025-11-20 17:17:14.615475 DEBUG::Object: fun_list, Size: 124640
+2025-11-20 17:17:14.615659 DEBUG::Object: func_to_run, Size: 435336
+2025-11-20 17:17:14.615782 DEBUG::Object: groups, Size: 48
+2025-11-20 17:17:14.615897 DEBUG::Object: median_comparison, Size: 56
+2025-11-20 17:17:14.61604 DEBUG::Object: median_comparison_threshold, Size: 56
+2025-11-20 17:17:14.616223 DEBUG::Object: metadata, Size: 35712
+2025-11-20 17:17:14.616361 DEBUG::Object: model, Size: 112
+2025-11-20 17:17:14.616504 DEBUG::Object: model_function, Size: 71464
+2025-11-20 17:17:14.616621 DEBUG::Object: ordereds, Size: 48
+2025-11-20 17:17:14.616737 DEBUG::Object: random_effects_formula, Size: 1456
+2025-11-20 17:17:14.61687 DEBUG::Object: ranef_function, Size: 1240
+2025-11-20 17:17:14.616988 DEBUG::Object: save_models, Size: 56
+2025-11-20 17:17:14.617111 DEBUG::Object: small_random_effects, Size: 56
+2025-11-20 17:17:14.617233 DEBUG::Object: strata, Size: 48
+2025-11-20 17:17:14.617347 DEBUG::Object: subtract_median, Size: 56
+2025-11-20 17:17:14.617483 DEBUG::Object: summary_function, Size: 51456
+2025-11-20 17:17:14.617652 DEBUG::Object: func_to_run, Size: 435336
+2025-11-20 17:17:20.870123 INFO::Performing tests against medians
+2025-11-20 17:17:22.497671 INFO::Counting total values for each feature
+2025-11-20 17:17:22.502728 INFO::Running the logistic model component
+2025-11-20 17:17:22.504451 INFO::Creating cluster of 10 R processes
+2025-11-20 17:17:55.305359 DEBUG::Object: augment, Size: 56
+2025-11-20 17:17:55.306788 DEBUG::Object: cluster, Size: 14872
+2025-11-20 17:17:55.306979 DEBUG::Object: cores, Size: 56
+2025-11-20 17:17:55.307116 DEBUG::Object: correction, Size: 112
+2025-11-20 17:17:55.307284 DEBUG::Object: extract_out, Size: 1864
+2025-11-20 17:17:55.307401 DEBUG::Object: feature_specific_covariate, Size: 0
+2025-11-20 17:17:55.307519 DEBUG::Object: feature_specific_covariate_name, Size: 0
+2025-11-20 17:17:55.307634 DEBUG::Object: feature_specific_covariate_record, Size: 0
+2025-11-20 17:17:55.307785 DEBUG::Object: features, Size: 318624
+2025-11-20 17:17:55.307901 DEBUG::Object: formula, Size: 1456
+2025-11-20 17:17:55.30804 DEBUG::Object: fun_list, Size: 212584
+2025-11-20 17:17:55.308194 DEBUG::Object: func_to_run, Size: 435336
+2025-11-20 17:17:55.308294 DEBUG::Object: groups, Size: 48
+2025-11-20 17:17:55.308392 DEBUG::Object: median_comparison, Size: 56
+2025-11-20 17:17:55.308508 DEBUG::Object: median_comparison_threshold, Size: 56
+2025-11-20 17:17:55.308627 DEBUG::Object: metadata, Size: 35712
+2025-11-20 17:17:55.308724 DEBUG::Object: model, Size: 120
+2025-11-20 17:17:55.30884 DEBUG::Object: model_function, Size: 161200
+2025-11-20 17:17:55.308931 DEBUG::Object: ordereds, Size: 48
+2025-11-20 17:17:55.309023 DEBUG::Object: random_effects_formula, Size: 1456
+2025-11-20 17:17:55.30912 DEBUG::Object: ranef_function, Size: 1240
+2025-11-20 17:17:55.309222 DEBUG::Object: save_models, Size: 56
+2025-11-20 17:17:55.309318 DEBUG::Object: small_random_effects, Size: 56
+2025-11-20 17:17:55.309413 DEBUG::Object: strata, Size: 48
+2025-11-20 17:17:55.309511 DEBUG::Object: subtract_median, Size: 56
+2025-11-20 17:17:55.309611 DEBUG::Object: summary_function, Size: 49664
+2025-11-20 17:17:55.309747 DEBUG::Object: func_to_run, Size: 435336
+2025-11-20 17:18:11.443997 INFO::Counting total values for each feature
+2025-11-20 17:18:11.473437 INFO::Re-running abundances for warn_prevalence
+2025-11-20 17:18:11.475132 INFO::Running selected normalization method: TSS
+2025-11-20 17:18:11.526366 INFO::Running selected transform method: LOG
+2025-11-20 17:18:11.546273 INFO::Creating cluster of 10 R processes
+2025-11-20 17:18:16.136571 DEBUG::Object: augment, Size: 56
+2025-11-20 17:18:16.136897 DEBUG::Object: cluster, Size: 14872
+2025-11-20 17:18:16.137051 DEBUG::Object: cores, Size: 56
+2025-11-20 17:18:16.137227 DEBUG::Object: correction, Size: 112
+2025-11-20 17:18:16.137362 DEBUG::Object: extract_out, Size: 1864
+2025-11-20 17:18:16.137485 DEBUG::Object: feature_specific_covariate, Size: 0
+2025-11-20 17:18:16.137603 DEBUG::Object: feature_specific_covariate_name, Size: 0
+2025-11-20 17:18:16.137728 DEBUG::Object: feature_specific_covariate_record, Size: 0
+2025-11-20 17:18:16.137865 DEBUG::Object: features, Size: 342144
+2025-11-20 17:18:16.138002 DEBUG::Object: formula, Size: 1456
+2025-11-20 17:18:16.138142 DEBUG::Object: fun_list, Size: 124640
+2025-11-20 17:18:16.13833 DEBUG::Object: func_to_run, Size: 435336
+2025-11-20 17:18:16.138453 DEBUG::Object: groups, Size: 48
+2025-11-20 17:18:16.138587 DEBUG::Object: median_comparison, Size: 56
+2025-11-20 17:18:16.138698 DEBUG::Object: median_comparison_threshold, Size: 56
+2025-11-20 17:18:16.138823 DEBUG::Object: metadata, Size: 35712
+2025-11-20 17:18:16.138934 DEBUG::Object: model, Size: 112
+2025-11-20 17:18:16.139066 DEBUG::Object: model_function, Size: 71464
+2025-11-20 17:18:16.139192 DEBUG::Object: ordereds, Size: 48
+2025-11-20 17:18:16.139433 DEBUG::Object: random_effects_formula, Size: 1456
+2025-11-20 17:18:16.13961 DEBUG::Object: ranef_function, Size: 1240
+2025-11-20 17:18:16.139746 DEBUG::Object: save_models, Size: 56
+2025-11-20 17:18:16.139882 DEBUG::Object: small_random_effects, Size: 56
+2025-11-20 17:18:16.140009 DEBUG::Object: strata, Size: 48
+2025-11-20 17:18:16.140137 DEBUG::Object: subtract_median, Size: 56
+2025-11-20 17:18:16.140277 DEBUG::Object: summary_function, Size: 51456
+2025-11-20 17:18:16.140472 DEBUG::Object: func_to_run, Size: 435336
+2025-11-20 17:18:18.293307 WARNING::Deleting existing residuals file: ../data/maaslin_fits/over1_cross_taxa/fits/residuals_linear.rds
+2025-11-20 17:18:18.298597 INFO::Writing residuals to file ../data/maaslin_fits/over1_cross_taxa/fits/residuals_linear.rds
+2025-11-20 17:18:18.306586 WARNING::Deleting existing fitted file: ../data/maaslin_fits/over1_cross_taxa/fits/fitted_linear.rds
+2025-11-20 17:18:18.306993 INFO::Writing fitted values to file ../data/maaslin_fits/over1_cross_taxa/fits/fitted_linear.rds
+2025-11-20 17:18:18.311238 WARNING::Deleting existing ranef file: ../data/maaslin_fits/over1_cross_taxa/fits/ranef_linear.rds
+2025-11-20 17:18:18.314308 INFO::Writing extracted random effects to file ../data/maaslin_fits/over1_cross_taxa/fits/ranef_linear.rds
+2025-11-20 17:18:18.316893 WARNING::Deleting existing residuals file: ../data/maaslin_fits/over1_cross_taxa/fits/residuals_logistic.rds
+2025-11-20 17:18:18.317203 INFO::Writing residuals to file ../data/maaslin_fits/over1_cross_taxa/fits/residuals_logistic.rds
+2025-11-20 17:18:18.325455 WARNING::Deleting existing fitted file: ../data/maaslin_fits/over1_cross_taxa/fits/fitted_logistic.rds
+2025-11-20 17:18:18.325909 INFO::Writing fitted values to file ../data/maaslin_fits/over1_cross_taxa/fits/fitted_logistic.rds
+2025-11-20 17:18:18.331586 WARNING::Deleting existing ranef file: ../data/maaslin_fits/over1_cross_taxa/fits/ranef_logistic.rds
+2025-11-20 17:18:18.332053 INFO::Writing extracted random effects to file ../data/maaslin_fits/over1_cross_taxa/fits/ranef_logistic.rds
+2025-11-20 17:18:18.334167 INFO::Writing all the results to file (ordered 
             by increasing individual q-values): ../data/maaslin_fits/over1_cross_taxa/all_results.tsv
-2025-09-25 07:41:41.104739 INFO::Writing the significant results without errors (those which have joint q-values less than or equal to the threshold of 0.050000 ) to file (ordered by increasing individual q-values): ../data/maaslin_fits/over1_cross_taxa/significant_results.tsv
-2025-09-25 07:41:41.105434 INFO::Writing summary plot of significant
+2025-11-20 17:18:18.337988 INFO::Writing the significant results without errors (those which have joint q-values less than or equal to the threshold of 0.050000 ) to file (ordered by increasing individual q-values): ../data/maaslin_fits/over1_cross_taxa/significant_results.tsv
+2025-11-20 17:18:18.338956 INFO::Writing summary plot of significant
                         results to file: ../data/maaslin_fits/over1_cross_taxa/figures/summary_plot.pdf
-2025-09-25 07:41:41.44107 INFO::Writing association plots (one for each significant association) to output folder: ../data/maaslin_fits/over1_cross_taxa/figures
-2025-09-25 07:41:41.441653 INFO::All associations had errors 
+2025-11-20 17:18:19.662945 INFO::Writing association plots (one for each significant association) to output folder: ../data/maaslin_fits/over1_cross_taxa/figures
+2025-11-20 17:18:19.663635 INFO::All associations had errors 
                                 or were insignificant.

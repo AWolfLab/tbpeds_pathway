@@ -1,0 +1,49 @@
+samples	sample_id	savio_id	tbClass	ntm	sex	age	age_range	childhood	hiv	sam	underweight
+Don’t need - I believe this is a COVID sample		LIB003299_22C2NCLT3_S22_L003									
+Don’t need - I believe this is a COVID sample		LIB003316_22C2NCLT3_S5_L003									
+Don’t need - I believe this is a COVID sample		LIB003317_22C2NCLT3_S4_L003									
+Don’t need - I believe this is a COVID sample		LIB003318_22C2NCLT3_S3_L003									
+Don’t need - I believe this is a COVID sample		LIB003319_22C2NCLT3_S2_L003									
+Don’t need - I believe this is a COVID sample		LIB003320_22C2NCLT3_S1_L003									
+339	339	LIB061831_22H3KFLT4_S2_L007	Confirmed	Negative	F	3	over1	early	Negative	N	N
+350	350	LIB061836_22H3KFLT4_S7_L007	Confirmed	Negative	M	8	over1	middle	Negative	N	P
+375	375	LIB061851_22H3KFLT4_S22_L007	Unconfirmed	Negative	M	13	over1	adolescent	Negative	N	N
+370	370	LIB061852_22H3KFLT4_S23_L007	Unlikely	Negative	F	7	over1	middle	Negative	N	P
+381	381	LIB061854_22H3KFLT4_S25_L007	Unlikely	Negative	M	6	over1	middle	Positive	N	P
+396	396	LIB061862_22H3KFLT4_S33_L007	Unconfirmed	Negative	F	1	over1	early	Negative	N	N
+397	397	LIB061864_22H3KFLT4_S35_L007	Unconfirmed	Negative	M	2	over1	early	Negative	N	N
+403	403	LIB061870_22H3KFLT4_S41_L007	Unconfirmed	Negative	F	1	over1	early	Negative	N	N
+416	416	LIB061880_22H3KFLT4_S51_L007	Unlikely	Negative	M	0	under1	infant	Negative	N	P
+431	431	LIB061893_22H3KFLT4_S64_L007	Unconfirmed	Negative	M	5	under1	middle	Negative	N	P
+433	433	LIB061894_22H3KFLT4_S65_L007	Unconfirmed	Negative	M	2	over1	early	Negative	N	N
+438	438	LIB061898_22H3KFLT4_S69_L007	Unconfirmed	Negative	M	4	over1	middle	Positive	N	N
+441	441	LIB061902_22H3KFLT4_S73_L007	Unconfirmed	Negative	M	8	over1	middle	Negative	N	P
+448	448	LIB061909_22H3KFLT4_S80_L007	Unconfirmed	Negative	M	1	over1	early	Negative	N	N
+450	450	LIB061911_22H3KFLT4_S82_L007	Confirmed	NA	M	0	under1	infant	Negative	N	P
+463	463	LIB061921_22H3KFLT4_S92_L007	Unconfirmed	Negative	F	2	over1	early	Negative	N	N
+465	465	LIB061923_22H3KFLT4_S94_L007	Confirmed	NA	M	0	under1	infant	Negative	N	P
+471	471	LIB072773_22HNWVLT4_S80_L003	Confirmed	Negative	M	8	over1	middle	Negative	N	P
+480	480	LIB072778_22HNWVLT4_S85_L003	Confirmed	Negative	M	5	over1	middle	Negative	N	P
+505	505	LIB072792_22HNWVLT4_S99_L003	Unconfirmed	Negative	M	9	over1	middle	Negative	N	P
+506	506	LIB072794_22HNWVLT4_S101_L003	Unlikely	Negative	F	3	over1	early	Negative	N	N
+524	524	LIB072805_22HNWVLT4_S112_L003	Unconfirmed	Negative	F	5	over1	middle	Negative	N	P
+535	535	LIB072814_22HNWVLT4_S121_L003	Unconfirmed	Negative	F	4	over1	middle	Negative	N	N
+540	540	LIB072816_22HNWVLT4_S123_L003	Unclassifiable	Negative	F	1	over1	early	Negative	P	P
+544	544	LIB072820_22HNWVLT4_S127_L003	Unconfirmed	Negative	F	6	over1	middle	Negative	N	P
+561	561	LIB072833_22HNWVLT4_S140_L003	Unlikely	Negative	M	1	over1	early	Negative	N	N
+564	564	LIB072834_22HNWVLT4_S141_L003	Unclassifiable	Negative	F	0	under1	infant	Negative	N	N
+566	566	LIB072836_22HNWVLT4_S143_L003	Unlikely	Negative	M	1	over1	early	Negative	N	N
+582	582	LIB076986_22MG27LT4_S101_L002	Unconfirmed	Negative	F	4	over1	middle	Negative	N	N
+580	580	LIB076987_22MG27LT4_S102_L002	Unlikely	Negative	M	3	over1	early	Negative	N	N
+585	585	LIB076989_22MG27LT4_S104_L002	Unlikely	Negative	M	0	under1	infant	Exposed	N	N
+586	586	LIB076990_22MG27LT4_S105_L002	Unconfirmed	Negative	M	2	over1	early	Negative	N	N
+589	589	LIB076992_22MG27LT4_S107_L002	Unconfirmed	Negative	M	5	over1	middle	Positive	N	P
+591	591	LIB076994_22MG27LT4_S109_L002	Unconfirmed	Negative	M	6	over1	middle	Negative	N	P
+610	610	LIB077005_22MG27LT4_S120_L002	Unlikely	Negative	M	2	over1	early	Negative	N	N
+613	613	LIB077007_22MG27LT4_S122_L002	Unconfirmed	Negative	F	5	over1	middle	Negative	N	P
+615	615	LIB077010_22MG27LT4_S125_L002	Unlikely	Negative	F	10	over1	middle	Negative	N	N
+623	623	LIB077014_22MG27LT4_S129_L002	Unconfirmed	Negative	F	3	over1	early	Negative	N	N
+642	642	LIB077023_22MG27LT4_S138_L002	Unconfirmed	Positive	M	7	over1	middle	Negative	N	P
+644	644	LIB077026_22MG27LT4_S141_L002	Unconfirmed	Negative	M	2	over1	early	Negative	N	P
+646	646	LIB077027_22MG27LT4_S142_L002	Unconfirmed	Negative	F	1	over1	early	Negative	N	N
+653	653	LIB077036_22MG27LT4_S151_L002	Unconfirmed	Negative	F	2	over1	early	Negative	N	N
